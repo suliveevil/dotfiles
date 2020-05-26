@@ -1,0 +1,317 @@
+"Python----------------------------------------------------------------------✅
+"Code Formator
+"autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
+
+"✅禁用 vi 兼容模式----------------------------------------------------------✅
+set nocompatible
+
+"✅基本设置------------------------------------------------------------------✅
+set tags=tags
+set tags+=./tags
+set showmode
+set showcmd
+set helplang=cn
+"水平滚动时，光标距离行首或行尾的位置（单位：字符）。该配置在不折行时比较有用。
+"set sidescrolloff=10
+"自动折行，即太长的行分成几行显示，关闭自动折行为set nowrap
+set wrap
+"不在单词内部折行，只有遇到指定的符号（比如空格、连词号和其他标点符号）才折行。
+set linebreak
+"指定折行处与编辑窗口的右边缘之间空出的字符数。
+set wrapmargin=2
+"自动加载修改后的配置
+"autocmd! bufwritepost _vimrc source %
+"autocmd! bufwritepost .vimrc source %
+"autocmd! bufwritepost vimrc source %
+"✅历史
+set undofile
+set history=2048
+"⚠️文件格式：换行符 Line Ending
+"Linux、Unix：LF,macOS：CR,Windows：CRLF
+set ffs=unix,dos,mac
+"set fileformat=unix
+"set fileformat=mac
+"set fileformat=dos
+"✅制表符、空格、缩进 Tab & Space
+set autoindent
+set smartindent
+set smarttab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+"只用空格，不使用Tab
+set smarttab
+set expandtab
+
+"如果行尾有多余的空格（包括 Tab 键），该配置将让这些空格显示成可见的小方块。
+set listchars=tab:»■,trail:■
+set list
+
+
+"✅语法高亮
+if !exists("g:syntax_on")
+    syntax enable
+endif
+"设置行宽，即一行显示多少个字符
+set textwidth=80
+
+"光标遇到{[()]}时，会高亮显示另一半匹配的符号
+set showmatch
+"在一个 Vim 会话之中打开多个文件时，将工作目录自动切换到正在编辑的文件的目录。
+set autochdir
+
+"出错时，不要发出响声
+set noerrorbells
+"出错时，发出视觉提示，通常是屏幕闪烁
+set visualbell
+
+"命令模式下，底部操作指令按下 Tab 键自动补全
+"第一次Tab，显示所有匹配的操作指令的清单；
+"第二次按下 Tab，会依次选择各个指令。
+set wildmenu
+set wildmode=longest:list,full
+
+"✅键盘映射 Keymap-----------------------------------------------------------✅
+"Leader 键
+" 空格键作为 Leader
+let mapleader = "\<space>"
+"let g:mapleader = "\<space>"
+
+"tagbar
+map <leader>t :TagbarToggle<CR>
+map <leader>f :NERDTreeToggle<CR>
+
+"✅模式显示和切换
+inoremap jk <Esc>
+inoremap kj <Esc>
+inoremap <C-q> <ESC>
+"nnoremap U <C-r>
+vnoremap <C-q> <ESC>
+"退出
+map Q :q confirm<CR>
+
+"Tab
+
+"Window
+"左分屏，聚焦左窗口sh
+map sh :set nosplitright<CR>:vsplit<CR>
+"右分屏，聚焦右窗口sl
+map sl :set splitright<CR>:vsplit<CR>
+"下分屏，聚焦下窗口sj
+map sj :set splitbelow<CR>:split<CR>
+"上分屏，聚焦上窗口sk
+map sk :set nosplitbelow<CR>:split<CR>
+
+"光标移至左窗口
+map <LEADER>h <C-w>h
+"光标移至下窗口
+map <LEADER>j <C-w>j
+"光标移至上窗口
+map <LEADER>k <C-w>k
+"光标移至右窗口
+map <LEADER>l <C-w>l
+
+"窗口上移
+map <up> :res +5<CR>
+"窗口下移
+map <down> :res -5<CR>
+"窗口左移
+map <left> :vertical resize-5<CR>
+"窗口右移
+map <right> :vertical resize+5<CR>
+"新建标签页
+map <C-n> :tabe<CR>
+"前一标签页
+map t- :-tabnext<CR>
+"后一标签页
+map t= :+tabnext<CR>
+
+"Buffer
+" 允许隐藏被修改过的 buffer
+set hidden
+" normal 模式下使用 bl 列出 Buffer 列表
+nnoremap <silent> bl :ls<CR>
+" normal 模式下使用 bo 打开一个新 Buffer
+nnoremap <silent> bo :enew<CR>
+" normal 模式下使用 bd 关闭当前 Buffer
+nnoremap <silent> bd :bdelete<CR>
+" normal 模式下使用 bn 切换到下一个 Buffer
+nnoremap <silent> bn :bnext<CR>
+" normal 模式下使用 bp 切换到上一个 Buffer
+nnoremap <silent> bp :bprevious<CR>
+" iPadOS 不需要设置 ; 替换 :
+"nnoremap ; :
+" 跳转 Home End
+noremap H ^
+noremap L $
+
+"自动匹配括号
+:inoremap ( ()<ESC>i
+:inoremap ) <c-r>=ClosePair(')')<CR>
+:inoremap { {}<ESC>i
+:inoremap } <c-r>=ClosePair('}')<CR>
+:inoremap [ []<ESC>i
+:inoremap ] <c-r>=ClosePair(']')<CR>
+:inoremap < <><ESC>i
+:inoremap > <c-r>=ClosePair('>')<CR>
+function! ClosePair(char)
+    if getline('.')[col('.') - 1] == a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
+endfunction
+
+" 选择全部
+map <Leader>sa ggVG
+" w!! 提权保存文件
+cmap w!! w !sudo tee >/dev/null %
+" 代码折叠自定义快捷键 <leader>zz
+let g:FoldMethod = 0
+map <leader>zz :call ToggleFold()<cr>
+fun! ToggleFold()
+    if g:FoldMethod == 0
+        exe "normal! zM"
+        let g:FoldMethod = 1
+    else
+        exe "normal! zR"
+        let g:FoldMethod = 0
+    endif
+endfun
+
+"✅光标与鼠标----------------------------------------------------------------✅
+"✅鼠标
+"set mouse=a
+"set mousehide
+"✅光标
+"自动定位到上次打开最后位置
+if has("autocmd")
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+endif
+"光标颜色
+"highlight Cursor guifg=white guibg=black
+"highlight iCursor guifg=white guibg=steelblue
+"set guicursor=n-v-c:block-Cursor
+"set guicursor+=i:ver100-iCursor
+"set guicursor+=n-v-c:blinkon0
+"set guicursor+=i:blinkwait10
+"光标所在行和列
+autocmd InsertLeave,WinEnter * set cursorcolumn
+autocmd InsertEnter,WinLeave * set cursorcolumn
+autocmd InsertLeave,WinEnter * set cursorline
+autocmd InsertEnter,WinLeave * set nocursorline
+"模式与光标样式
+let &t_SI.="\e[5 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
+"  1 -> blinking block
+"  2 -> solid block
+"  3 -> blinking underscore
+"  4 -> solid underscore
+"  5 -> blinking vertical bar
+"  6 -> solid vertical bar
+"let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+"let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+"✅搜索 Search---------------------------------------------------------------✅
+"搜索高亮
+set hlsearch
+"增量搜索
+set incsearch
+"智能大小写
+set ignorecase
+set smartcase
+"set suffixes+=.info,.aux,.log,.dvi,.bbl,.out,.o,.lo
+"set nomodeline
+"autocmd BufRead APKBUILD set filetype=sh
+
+"✅行
+set ruler
+set scrolloff=9
+set number
+"相对行号
+augroup relative_numbers
+        autocmd!
+        autocmd InsertEnter * :set norelativenumber
+        autocmd InsertLeave * :set relativenumber
+augroup END
+
+"单行字符数提示
+set colorcolumn=80
+
+"⚠️折叠
+set foldenable
+set foldmethod=indent
+set foldlevel=99
+
+"✅文件 File-----------------------------------------------------------------✅
+
+"✅文件编码
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set termencoding=utf-8
+set ffs=unix,dos,mac
+set formatoptions+=m
+set formatoptions+=B
+
+"✅文件类型
+filetype on
+"文件类型缩进
+filetype indent on
+"文件修改后自动载入
+set autoread
+"处理未保存或者只读文件时,给出提示
+set confirm
+"忽略文件
+set wildignore=*.swp,*.bak,*.pyc,*.class,.svn
+"交换文件
+"set noswapfile
+
+"✅补全
+set completeopt=longest,menu
+" 定义函数AutoSetFileHead，自动插入文件头
+autocmd BufNewFile *.sh,*.py exec ":call AutoSetFileHead()"
+function! AutoSetFileHead()
+    "如果文件类型为.sh文件
+    if &filetype == 'sh'
+        call setline(1, "\#!/bin/bash")
+    endif
+
+    "如果文件类型为python
+    if &filetype == 'python'
+        " call setline(1, "\#!/usr/bin/env python")
+        " call append(1, "\# encoding: utf-8")
+        call setline(1, "\# -*- coding: utf-8 -*-")
+    endif
+
+    normal G
+    normal o
+    normal o
+endfunc
+" 设置可以高亮的关键字
+if has("autocmd")
+  " Highlight TODO, FIXME, NOTE, etc.
+  if v:version > 701
+    autocmd Syntax * call matchadd('Todo','\W\zs\(TODO\|FIXME\|CHANGED\|DONE\|XXX\|BUG\|HACK\)')
+    autocmd Syntax * call matchadd('Debug','\W\zs\(NOTE\|INFO\|IDEA\|NOTICE\)')
+  endif
+endif
+
+"✅主题----------------------------------------------------------------------✅
+if !has('gui_running')
+    set t_Co=256
+endif
+set colorscheme=desert
+
+"⚠️状态栏---------------------------------------------------------------------✅
+set laststatus=2            				"设置状态栏在倒数第2行
+set statusline=%1*\%<%.50F\             	"显示文件名和文件路径
+set statusline+=%=%2*\%y%m%r%h%w\ %*        "显示文件类型及文件状态
+set statusline+=%3*\%{&ff}\[%{&fenc}]\ %*   "显示文件编码类型
+set statusline+=%4*\ row:%l/%L,col:%c\ %*   "显示光标所在行和列
+set statusline+=%5*\%3p%%\%*            	"显示光标前文本所占总文本的比例
+
