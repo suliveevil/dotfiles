@@ -11,6 +11,8 @@ defmacro
 defsubst
 defun
 defvar
+dotfiles
+erlang
 hunspell
 manateelazycat
 Neovim
