@@ -7,6 +7,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services", "https://gitee.com/cunkai/homebrew-services.git"
 tap "laishulu/macism"
+tap "markwu/personal"
 tap "martido/graph"
 tap "railwaycat/emacsmacport"
 tap "yqrashawn/goku"
@@ -16,17 +17,21 @@ brew "tesseract"
 brew "ffmpeg"
 brew "graphviz"
 brew "mas"
+brew "neofetch"
 brew "neovim", args: ["HEAD"]
 brew "node"
 brew "php"
 brew "ripgrep"
 brew "spaceship"
 brew "swiftplantuml"
+brew "tag"
+brew "tldr"
 brew "universal-ctags"
 brew "wget"
 brew "d12frosted/emacs-plus/emacs-plus@28"
 brew "felixkratz/formulae/svim"
 brew "laishulu/macism/macism"
+brew "markwu/personal/zeal", args: ["HEAD"]
 brew "yqrashawn/goku/goku"
 cask "alacritty"
 cask "alfred"
@@ -77,21 +82,23 @@ cask "wpsoffice-cn"
 cask "yesplaymusic"
 cask "zettlr"
 mas "Amphetamine", id: 937984704
-mas "BBEdit", id: 404009241
 mas "BeMyEars", id: 1577662679
+mas "BeyondPlayer Lite", id: 1444389594
 mas "Bitwarden", id: 1352778147
 mas "Bob", id: 1630034110
 mas "Carbo", id: 956811074
+mas "Cleaner", id: 1597938160
 mas "CLOx Transcription", id: 1523222131
 mas "Codeface", id: 1578175415
 mas "Codye", id: 1516894961
 mas "Color UI", id: 1092899208
 mas "ColorSlurp", id: 1287239339
-mas "CotEditor", id: 1024640650
 mas "Cursor Pro", id: 1447043133
+mas "CWS", id: 1598790017
 mas "DaisyDisk", id: 411643860
 mas "Drafts", id: 1435957248
 mas "File Icons for GitHub and GitLab", id: 1631366167
+mas "Fonts Ninja for Safari", id: 1480227114
 mas "Foxmail", id: 617950461
 mas "GeoGebra Calculator Suite", id: 1504416652
 mas "GoodNotes", id: 1444383602
@@ -107,6 +114,7 @@ mas "Keka", id: 470158793
 mas "Keymou", id: 449863619
 mas "Keynote 讲演", id: 409183694
 mas "Kuar", id: 1553562554
+mas "LanguageTool", id: 1534275760
 mas "Lingocloud for Safari", id: 1567588461
 mas "Liquid", id: 569048352
 mas "Magnet Links", id: 1598258908
@@ -119,6 +127,7 @@ mas "MWeb Pro", id: 1403919533
 mas "Notability", id: 360593530
 mas "Numbers 表格", id: 409203825
 mas "Octotree", id: 1457450145
+mas "OneTab", id: 1540160809
 mas "OwlOCR", id: 1499181666
 mas "Pages 文稿", id: 409201541
 mas "PD", id: 510365488
@@ -129,10 +138,12 @@ mas "PopClip", id: 445189367
 mas "PotPlayer X", id: 1612400976
 mas "QQ", id: 451108668
 mas "QSpace", id: 1469774098
+mas "Redacted", id: 984968384
 mas "Refined GitHub", id: 1519867270
 mas "Regex for Safari", id: 1597580456
 mas "RegEx Lab", id: 1252988123
 mas "ScreenToLayers", id: 1077317077
+mas "Sequel Ace", id: 1518036000
 mas "Shazam", id: 897118787
 mas "SnippetsLab", id: 1006087419
 mas "SubEthaEdit", id: 728530824
@@ -142,6 +153,7 @@ mas "Time Sink", id: 404363161
 mas "ToMenu", id: 1414457383
 mas "Transcribe", id: 1602959841
 mas "Twitter", id: 1482454543
+mas "V2exOS", id: 6443544914
 mas "Vectorize!", id: 1520204499
 mas "Vectornator", id: 1219074514
 mas "Vimari", id: 1480933944
@@ -152,7 +164,9 @@ mas "X-Reader", id: 1476139856
 mas "xSearch", id: 1579902068
 mas "Yoink", id: 457622435
 mas "剪映专业版", id: 1529999940
+mas "库乐队", id: 682658836
 mas "微信", id: 836500024
+mas "抖音", id: 1640407382
 mas "欧路词典", id: 402380914
 mas "白描", id: 1249901692
 mas "自动切换输入法 专业版", id: 1551531632
