@@ -16,6 +16,7 @@ brew "doxygen"
 brew "tesseract"
 brew "ffmpeg"
 brew "graphviz"
+brew "grex"
 brew "mas"
 brew "neofetch"
 brew "neovim", args: ["HEAD"]
@@ -45,8 +46,10 @@ cask "firefox"
 cask "font-lxgw-wenkai"
 cask "font-noto-sans-mono"
 cask "free-download-manager"
+cask "freeplane"
 cask "gephi"
 cask "github"
+cask "grammarly-desktop"
 cask "grandperspective"
 cask "handbrake"
 cask "iina"
@@ -102,6 +105,7 @@ mas "Fonts Ninja for Safari", id: 1480227114
 mas "Foxmail", id: 617950461
 mas "GeoGebra Calculator Suite", id: 1504416652
 mas "GoodNotes", id: 1444383602
+mas "Grammar Check", id: 1632607331
 mas "HazeOver", id: 430798174
 mas "Hex Fiend", id: 1342896380
 mas "iMovie 剪辑", id: 408981434
@@ -138,6 +142,7 @@ mas "PopClip", id: 445189367
 mas "PotPlayer X", id: 1612400976
 mas "QQ", id: 451108668
 mas "QSpace", id: 1469774098
+mas "Readefine", id: 1544832207
 mas "Redacted", id: 984968384
 mas "Refined GitHub", id: 1519867270
 mas "Regex for Safari", id: 1597580456
