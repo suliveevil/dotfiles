@@ -1,2 +1,87 @@
-vim9script
-# 
+" ==========binary position========== {{{
+" This is the most powerful cursor moving action
+" As its name shows the cursor moving acts in binary mode
+" <C-j> <C-k> binary move the cursor in vertical direction
+" <C-h> <C-k> binary move the cursor in horizontal direction
+let g:v_beg = 0
+let g:v_mid = 0
+let g:v_end = 0
+let g:v_last_p = 0
+
+let g:h_beg = 0
+let g:h_mid = 0
+let g:h_end = 0
+let g:h_last_p = 0
+
+nnoremap <C-j> :<c-u>call <SID>BinaryPositionV("down")<CR>
+nnoremap <C-k> :<c-u>call <SID>BinaryPositionV("up")<CR>
+nnoremap <C-h> :<c-u>call <SID>BinaryPositionH("left")<CR>
+nnoremap <C-l> :<c-u>call <SID>BinaryPositionH("right")<CR>
+noremap <leader>c :<c-u>call <SID>BinaryClear()<CR>
+
+function! s:ResetV()
+    let g:v_beg = line('w0')
+    let g:v_end = line('w$')
+    let g:v_mid = g:v_beg + (g:v_end - g:v_beg) / 2
+    let g:v_last_p = 0
+endfunction
+
+function! s:ResetH()
+    let g:h_beg = 1
+    let g:h_end = col('$')
+    let g:h_mid = g:h_beg + (g:h_end - g:h_beg) / 2
+    let g:h_last_p = 0
+endfunction
+
+function! s:BinaryClear()
+    call <SID>ResetV()
+    call <SID>ResetH()
+    echom "Binary position has benn cleared!"
+endfunction
+
+function! s:BinaryPositionV(direction)
+    let v_p = line('w0')
+    if v_p != g:v_last_p
+       call <SID>ResetV()
+       call cursor(g:v_mid, 0)
+       let g:v_last_p = v_p
+       echom "call BinaryPositionV(\"" . a:direction . "\")" . " -> beg: " .  g:v_beg . " end: " . g:v_end . " mid: " . g:v_mid
+       return
+   endif
+
+   if a:direction ==? 'down'
+       let g:v_beg = g:v_mid
+   elseif a:direction ==? 'up'
+       let g:v_end = g:v_mid
+   endif
+
+   let g:v_mid = g:v_beg + (g:v_end - g:v_beg) / 2
+
+   call cursor(g:v_mid, 0)
+
+   echom "call BinaryPositionV(\"" . a:direction . "\")" . " -> beg: " .  g:v_beg . " end: " . g:v_end . " mid: " . g:v_mid
+endfunction
+
+function! s:BinaryPositionH(direction)
+    let h_p = line('.')
+    if h_p != g:h_last_p
+        call <SID>ResetH()
+        call cursor(0, g:h_mid)
+        let g:h_last_p = h_p
+        echom "call BinaryPositionH(\"" . a:direction . "\")" . " -> beg: " .  g:h_beg . " end: " . g:h_end . " mid: " . g:h_mid
+        return
+    endif
+
+    if a:direction ==? 'left'
+        let g:h_end = g:h_mid
+    elseif a:direction ==? 'right'
+        let g:h_beg = g:h_mid
+    endif
+
+    let g:h_mid = g:h_beg + (g:h_end - g:h_beg) / 2
+
+    call cursor(0, g:h_mid)
+
+    echom "call BinaryPositionH(\"" . a:direction . "\")" . " -> beg: " .  g:h_beg . " end: " . g:h_end . " mid: " . g:h_mid
+endfunction
+" }}}
