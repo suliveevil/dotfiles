@@ -1,0 +1,49 @@
+[user]
+	name = suliveevil
+	email = 1361136657@qq.com
+[core]
+	excludesfile = /Users/suliveevil/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/suliveevil/.stCommitMsg
+[http]
+	sslVerify = false
+	proxy = http://127.0.0.1:31181
+
+[merge]
+tool=ultracompare
+
+[mergetool "ultracompare"]
+keepBackup=false
+trustExitCode=false
+prompt=false
+cmd=\"/Applications/UltraCompare.app/Contents/MacOS/UltraCompare\" -gitm "$LOCAL" "$REMOTE" "$BASE" "$MERGED" -title1 "LOCAL" -title2 "REMOTE" -ff
+
+[UC]
+defdiffmerge=yes
+defdiff=yes
+
+[diff]
+tool=ultracompare
+
+[difftool "ultracompare"]
+keepBackup=false
+trustExitCode=false
+prompt=false
+cmd=\"/Applications/UltraCompare.app/Contents/MacOS/UltraCompare\" -gitdt "$LOCAL" "$REMOTE" "$BASE" "$MERGED" -title1 "LOCAL" -title2 "REMOTE" -ff
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = store
+[safe]
+	directory = /opt/homebrew/Library/Taps/homebrew/homebrew-services
+[https]
+	proxy = http://127.0.0.1:31181
