@@ -24,6 +24,7 @@ endfunction
 endtry
 endwhile
 erlang
+espanso
 Freemind
 gitignore
 Graphviz
@@ -46,6 +47,7 @@ sdcv
 setq
 statusline
 Tincta
+tldr
 toketaWare
 transcient
 Unlicense

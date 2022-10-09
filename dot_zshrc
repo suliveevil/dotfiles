@@ -1,21 +1,5 @@
 
-
-
-
 source "/opt/homebrew/opt/spaceship/spaceship.zsh"
-
+eval $(thefuck --alias)
 alias cm='chezmoi'
-
-
-
-
-
-
-
-
-
-
-
-
-
 
