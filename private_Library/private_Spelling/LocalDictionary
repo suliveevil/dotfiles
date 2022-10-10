@@ -50,8 +50,13 @@ lexer
 libunistring
 libuv
 libx
+libxcb
+libxdmcp
+libxext
+libxrender
 Logseq
 lua
+mailutils
 manateelazycat
 mindmap
 mindmapping
@@ -73,6 +78,7 @@ srt
 statusline
 Textastic
 Tincta
+titlebar
 tldr
 toketaWare
 transcient
