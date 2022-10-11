@@ -1,5 +1,6 @@
 tap "candid82/brew"
 tap "d12frosted/emacs-plus"
+tap "daviderestivo/emacs-head"
 tap "felixkratz/formulae"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -16,8 +17,10 @@ brew "chezmoi"
 brew "doxygen"
 brew "tesseract"
 brew "ffmpeg"
+brew "fzf"
 brew "graphviz"
 brew "grex"
+brew "jq"
 brew "mas"
 brew "neofetch"
 brew "neovim", args: ["HEAD"]
@@ -31,7 +34,7 @@ brew "thefuck"
 brew "tldr"
 brew "universal-ctags"
 brew "wget"
-brew "d12frosted/emacs-plus/emacs-plus@28"
+brew "z.lua"
 brew "felixkratz/formulae/svim"
 brew "laishulu/macism/macism"
 brew "markwu/personal/zeal", args: ["HEAD"]
@@ -44,6 +47,7 @@ cask "douyin"
 cask "drawio"
 cask "dteoh-devdocs"
 cask "easyfind"
+cask "emacs"
 cask "firefox"
 cask "font-lxgw-wenkai"
 cask "font-noto-sans-mono"
@@ -75,6 +79,7 @@ cask "obsidian"
 cask "pycharm-ce"
 cask "qlstephen"
 cask "qspace-pro"
+cask "showyedge"
 cask "skim"
 cask "sourcetree"
 cask "squirrel"
@@ -103,7 +108,9 @@ mas "ColorSlurp", id: 1287239339
 mas "Cursor Pro", id: 1447043133
 mas "CWS", id: 1598790017
 mas "DaisyDisk", id: 411643860
+mas "Day One", id: 1055511498
 mas "Drafts", id: 1435957248
+mas "Evil Mineswifter", id: 1523249883
 mas "File Icons for GitHub and GitLab", id: 1631366167
 mas "Fonts Ninja for Safari", id: 1480227114
 mas "Foxmail", id: 617950461
@@ -171,11 +178,12 @@ mas "Wappalyzer", id: 1520333300
 mas "X to Y", id: 1598259546
 mas "X-Reader", id: 1476139856
 mas "xSearch", id: 1579902068
-mas "Yoink", id: 457622435
 mas "剪映专业版", id: 1529999940
+mas "听阅", id: 645926554
 mas "库乐队", id: 682658836
 mas "微信", id: 836500024
 mas "抖音", id: 1640407382
 mas "欧路词典", id: 402380914
+mas "生词本", id: 1120027237
 mas "白描", id: 1249901692
 mas "自动切换输入法 专业版", id: 1551531632
