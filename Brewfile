@@ -76,7 +76,6 @@ cask "neovide"
 cask "netnewswire"
 cask "obs"
 cask "obsidian"
-cask "pycharm-ce"
 cask "qlstephen"
 cask "qspace-pro"
 cask "showyedge"
@@ -117,6 +116,7 @@ mas "Foxmail", id: 617950461
 mas "GeoGebra Calculator Suite", id: 1504416652
 mas "GoodNotes", id: 1444383602
 mas "Grammar Check", id: 1632607331
+mas "Grammarly for Safari", id: 1462114288
 mas "HazeOver", id: 430798174
 mas "Hex Fiend", id: 1342896380
 mas "iMovie 剪辑", id: 408981434
@@ -172,7 +172,8 @@ mas "Twitter", id: 1482454543
 mas "V2exOS", id: 6443544914
 mas "Vectorize!", id: 1520204499
 mas "Vectornator", id: 1219074514
-mas "Vimari", id: 1480933944
+mas "Vimkey", id: 1585682577
+mas "Vimlike", id: 1584519802
 mas "VoiceExpress", id: 1434634466
 mas "Wappalyzer", id: 1520333300
 mas "X to Y", id: 1598259546
