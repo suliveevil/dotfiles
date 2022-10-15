@@ -19,6 +19,7 @@ clangd
 CLion
 clojure-mode
 cnfonts
+Colemak
 colorscheme
 conventional-changelog
 cscope
@@ -42,6 +43,7 @@ docbook
 dotfiles
 doxygen
 drawio
+dvorak
 elseif
 endfor
 endfunction
@@ -59,11 +61,13 @@ Freemind
 freetype
 fribidi
 fzf
+Ghidra
 ghostscript
 giflib
 Gitea
 Gitee
 gitignore
+Goku
 Graphviz
 gtags
 Hammerspoon
@@ -156,6 +160,7 @@ srt
 statusline
 Stig
 Surfingkeys
+SymSpell
 syntastic
 tabout
 Templater
@@ -179,10 +184,12 @@ vimspector
 vimwiki
 virtualenv
 virtualenvs
+VizTracer
 vscode
 VSCodium
 warpd
 webp
+wikilinks
 Xah
 xmind
 xmlto
