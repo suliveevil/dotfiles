@@ -43,6 +43,7 @@ cask "alacritty"
 cask "alfred"
 cask "baidunetdisk"
 cask "calibre"
+cask "cheatsheet"
 cask "deepl"
 cask "digikam"
 cask "douyin"
@@ -69,9 +70,11 @@ cask "keycastr"
 cask "latest"
 cask "libreoffice"
 cask "little-snitch"
+cask "logseq"
 cask "lx-music"
 cask "macupdater"
 cask "macvim"
+cask "mathpix-snipping-tool"
 cask "meld"
 cask "microsoft-edge"
 cask "neovide"
@@ -97,6 +100,7 @@ cask "zettlr"
 mas "Amphetamine", id: 937984704
 mas "BeMyEars", id: 1577662679
 mas "BeyondPlayer Lite", id: 1444389594
+mas "Billfish for Safari Extension", id: 1627430658
 mas "Bitwarden", id: 1352778147
 mas "Bob", id: 1630034110
 mas "Carbo", id: 956811074
@@ -110,6 +114,7 @@ mas "Cursor Pro", id: 1447043133
 mas "CWS", id: 1598790017
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
+mas "Desktop Pets", id: 1575542220
 mas "Drafts", id: 1435957248
 mas "Evil Mineswifter", id: 1523249883
 mas "File Icons for GitHub and GitLab", id: 1631366167
@@ -155,7 +160,6 @@ mas "PopClip", id: 445189367
 mas "PotPlayer X", id: 1612400976
 mas "QQ", id: 451108668
 mas "QSpace", id: 1469774098
-mas "Readefine", id: 1544832207
 mas "Redacted", id: 984968384
 mas "Refined GitHub", id: 1519867270
 mas "Regex for Safari", id: 1597580456

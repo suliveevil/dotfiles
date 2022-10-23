@@ -53,6 +53,7 @@ endwhile
 erlang
 espanso
 FFmpeg
+Figma
 fileutils
 Flameshot
 flymake
@@ -79,6 +80,7 @@ Homebrew
 htop
 httpie
 hunspell
+imagemagick
 infty
 inputrc
 IntelliCode
@@ -90,6 +92,7 @@ jumplist
 Kaitai
 Kakoune
 Kanban
+Kavita
 kdenlive
 Keychron
 keymap
@@ -112,6 +115,7 @@ libxdmcp
 libxext
 libxrender
 Logseq
+LoongArch
 lproj
 lsp
 lua
@@ -138,6 +142,7 @@ netlify
 netrw
 Nextcloud
 nvim
+opendiff
 openexr
 openjpeg
 operatorname
@@ -169,6 +174,7 @@ shellcheck
 shellutils
 Shirfine
 Shottr
+Snipaste
 Soulver
 Sourcery
 Spacebar
@@ -184,6 +190,7 @@ Tabnine
 tabout
 Templater
 Tencent
+Texmacs
 Textastic
 textobject
 Tincta
@@ -201,6 +208,7 @@ Videomass
 Vimball
 viminfo
 Vimium
+Vimscript
 vimspector
 vimwiki
 virtualenv
