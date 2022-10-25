@@ -13,18 +13,22 @@ tap "markwu/personal"
 tap "martido/graph"
 tap "railwaycat/emacsmacport"
 tap "yqrashawn/goku"
+brew "awk"
 brew "chezmoi"
 brew "doxygen"
 brew "tesseract"
 brew "ffmpeg"
 brew "fzf"
+brew "librsvg"
 brew "graphviz"
 brew "grex"
+brew "helix"
 brew "jq"
 brew "mas"
 brew "neofetch"
 brew "neovim", args: ["HEAD"]
 brew "node"
+brew "pandoc"
 brew "php"
 brew "ripgrep"
 brew "spaceship"
@@ -59,6 +63,7 @@ cask "free-download-manager"
 cask "freeplane"
 cask "geany"
 cask "gephi"
+cask "gimp"
 cask "github"
 cask "grammarly-desktop"
 cask "grandperspective"
@@ -97,6 +102,7 @@ cask "visual-studio-code"
 cask "wpsoffice-cn"
 cask "yesplaymusic"
 cask "zettlr"
+mas "Agent A", id: 1446601134
 mas "Amphetamine", id: 937984704
 mas "BeMyEars", id: 1577662679
 mas "BeyondPlayer Lite", id: 1444389594
@@ -129,20 +135,22 @@ mas "Hex Fiend", id: 1342896380
 mas "iMovie 剪辑", id: 408981434
 mas "Infuse", id: 1136220934
 mas "Internet Access Policy Viewer", id: 1482630322
-mas "iShot", id: 1485844094
 mas "iStat Menus", id: 1319778037
 mas "iyingyue", id: 1050489667
+mas "Just Press Record", id: 1033342465
 mas "Keka", id: 470158793
 mas "Keymou", id: 449863619
 mas "Keynote 讲演", id: 409183694
 mas "Kuar", id: 1553562554
 mas "LanguageTool", id: 1534275760
+mas "LightNote", id: 1546030973
 mas "Lingocloud for Safari", id: 1567588461
 mas "Liquid", id: 569048352
 mas "Magnet Links", id: 1598258908
 mas "MarginNote 3", id: 1423522373
 mas "MathStudio", id: 829912893
 mas "Micro Snitch", id: 972028355
+mas "Mockview", id: 1592728145
 mas "Moom", id: 419330170
 mas "Moped", id: 1477419086
 mas "MWeb Pro", id: 1403919533
