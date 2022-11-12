@@ -1,4 +1,340 @@
-" ==========binary position========== {{{
+
+" runtime
+" set runtimepath+=~/config/vim
+
+" Leader key
+let g:mapleader = "\<space>"
+" let g:maplocalleader = ','
+
+" 禁用 vi 兼容模式
+set nocompatible
+
+" 解决插入模式下 delete/backspace 失效问题
+" set backspace=2
+" 解决 vi compatible 模式下 backspace 置空问题
+" set backspace = eol,start,indent
+
+" 退出 Vim
+" map Q :q confirm<CR>
+
+" iVim Extended keyboards
+" nnoremap <leader>eks <D-s>
+" nnoremap <leader>ekh <D-h>
+" nnoremap <leader>ek. <D-.>
+
+" 跳转
+" nnoremap <leader>j <C-]>
+
+" noremap H ^
+" noremap L $
+
+" 模式切换
+
+" 普通模式	可视
+
+" 普通模式	可视-行
+
+" 普通模式	可视-块
+" nnoremap <leader>v <C-v>
+
+
+" 普通模式	选择
+
+" 普通模式	选择-行
+
+" 普通模式	选择-块
+" nnoremap <leader>s <C-s>
+
+
+" 插入模式	替换模式
+
+" 插入模式	选择模式
+
+" 插入模式	普通模式
+inoremap jk <ESC>
+inoremap kj <ESC>
+" inoremap <leader>qQ <ESC>
+
+
+
+" 插入模式	命令行模式
+
+
+" 插入模式	可视模式
+
+
+" 可视模式	普通模式
+" vnoremap <leader>q <ESC>
+
+" 插入模式
+" forward/backward char
+inoremap <C-f> <Right>        " Emacs Style / Readline Style
+inoremap <C-b> <Left>         " Emacs Style / Readline Style
+" forward/backward word
+inoremap <M-f> <S-Right>      " Emacs Style / Readline Style
+inoremap <M-b> <S-Left>       " Emacs Style / Readline Style
+
+" beginning/end of line
+inoremap <C-a> <C-O>^         " Emacs Style / Readline Style
+inoremap <C-e> <End>          " Emacs Style / Readline Style
+" previous/next line
+inoremap <C-p> <Up>           " Emacs Style / Readline Style
+inoremap <C-n> <Down>         " Emacs Style / Readline Style
+" backspace
+inoremap <C-h> <BS>           " Emacs Style / Readline Style
+" delete
+" inoremap <C-k>                " Emacs Style / Readline Style
+
+
+" 命令行模式
+
+cnoremap <C-f> <Right>        " Emacs Style / Readline Style
+cnoremap <C-b> <Left>         " Emacs Style / Readline Style
+cnoremap <C-p> <Up>           " Emacs Style / Readline Style
+cnoremap <C-n> <Down>         " Emacs Style / Readline Style
+cnoremap <C-a> <Home>         " Emacs Style / Readline Style
+cnoremap <C-e> <End>          " Emacs Style / Readline Style
+
+" 普通模式
+nnoremap <leader>W :w!<CR>
+nnoremap <leader>Q :q!<CR>
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+
+" 操作符等待模式
+
+
+
+" 可视模式
+" 可视模式-行
+" 可视模式-块
+
+" 选择模式
+" 选择模式-行
+" 选择模式-块
+
+
+" clipboard 剪贴板
+" 让 Y 表现的和其他大写字母一样
+map Y y$
+" always use clipboard for all delete, yank, change, put
+set clipboard+=unnamed
+set clipboard+=unnamedplus
+
+" conceal
+set concealcursor=nc
+
+" completion 补全
+" 让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
+set completeopt=longest,menu
+" 命令行模式下自动补全
+set wildmenu
+set completeopt+=noinsert
+set completeopt+=menuone
+set completeopt+=noselect
+set completeopt+=longest
+set completeopt+=preview
+set completeopt+=menu
+
+
+" cursor
+set scrolloff=5
+" 突出显示光标所在行和列
+autocmd InsertEnter,WinLeave * set cursorcolumn
+autocmd InsertEnter,WinLeave * set nocursorline
+autocmd InsertLeave,WinEnter * set cursorcolumn
+autocmd InsertLeave,WinEnter * set cursorline
+
+" file and folder/directory
+set autoread " reload files when changed on disk, i.e. via `git checkout`
+" file encoding
+set encoding=utf-8     " 设置新文件编码为 utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set termencoding=utf-8 " 终端下，普通模式专属设置
+set ffs=unix,dos,mac   " Use Unix as the standard file type
+set formatoptions+=m   " 如遇Unicode值大于255的文本，不必等到空格再折行
+set formatoptions+=B   " 合并两行中文时，不在中间加空格
+" undo
+nnoremap U <C-r>
+" swap
+" history
+set history=2048 " 命令行历史记录
+" ignore
+
+" netrw
+let g:netrw_banner = 0              " disable annoying banner
+let g:netrw_browse_split = 4        " open in prior window
+let g:netrw_altv = 1                " open split to the right
+let g:netrw_browsex_viewer='open'
+let g:netrw_liststyle = 3           " tree view
+" let g:netrw_list_hide=netrw_gitignore#Hide()
+" let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
+let g:netrw_sort_by = 'time'
+let g:netrw_sort_direction = 'reverse'
+let g:netrw_winsize = 25
+
+" file type
+filetype on " 检测文件类型
+filetype indent on " 针对不同的文件类型采用不同的缩进格式
+filetype plugin on " 允许文件类型插件
+filetype plugin indent on " 允许文件类型插件执行缩进
+
+
+" find/match/search
+" 显示搜索结果
+set showmatch    " 括号配对情况，跳转并高亮一下匹配的括号
+set matchtime=2  " how many tenths of a second to blink when matching brackets
+" 搜索匹配高亮
+set hlsearch
+" 随输入增量搜索
+set incsearch
+" 显示匹配总数及当前匹配位置
+set shortmess-=S
+set magic        " regular-expression 正则表达式
+set ignorecase   " 忽略大小写
+set smartcase    " 智能大小写
+set infercase
+" The way to show the result of substitution in real time for preview
+if exists('&inccommand')
+    set inccommand=nosplit
+endif
+
+
+" fold and wrap
+set foldenable
+set foldlevel=20
+set foldlevelstart=0
+set foldnestmax=19
+" foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
+" 代码折叠
+let g:FoldMethod = 0
+map <leader>zz :call ToggleFold()<cr>
+fun! ToggleFold()
+    if g:FoldMethod == 0
+        exe "normal! zM"
+        let g:FoldMethod = 1
+    else
+        exe "normal! zR"
+        let g:FoldMethod = 0
+    endif
+endfun
+
+" font 字体
+if has('ivim')
+    nnoremap <leader>+ :ifont +<cr>
+    nnoremap <leader>- :ifont -<cr>
+endif
+
+" hot-reload
+augroup reload_vimrc
+  autocmd!
+  autocmd BufWritePost .vimrc nested source <afile>
+augroup end
+
+augroup reload_lua_config
+  autocmd!
+  autocmd BufWritePost init.lua nested source <afile>
+augroup end
+
+
+" indent: 制表符（Tab）、空格（Space）
+set autoindent      " 自动缩进
+set cindent         " C/C++ 缩进优化
+set expandtab       " expand tabs to space, `Ctrl+V Tab` to insert real TAB
+set shiftround      " 缩进时取整 use multiple of shiftwidth
+set shiftwidth=4    " 每次自动缩进使用的空格数
+set smartindent     " 智能缩进
+set smarttab        " 自动将 tab 转换为 space
+set softtabstop=4   " 每次退格键删除的空格数
+set tabstop=4       " 一个 tab 转化为几个 space
+" keyword
+" 带有如下符号的单词不要被换行分割
+set iskeyword+=_,$,@,%,#,-
+
+
+" language
+" language en_US.utf-8 " use English as default
+
+" mark
+" 设置标记一列的背景颜色和数字一行颜色一致
+hi! link SignColumn   LineNr
+hi! link ShowMarksHLl DiffAdd
+hi! link ShowMarksHLu DiffChange
+
+" UI
+set lazyredraw
+set showmode
+set ruler           " show the current row and column
+" UI	帮助语言
+" set helplang=cn
+" set langmenu=zh_CN.utf-8
+" UI	提示（视觉提示，禁止响声）
+set errorbells
+set visualbell
+"
+set nostartofline
+" UI    statusline
+set showcmd
+" set cmdheight=2   " 注意：此处不允许等号两边有空格
+set laststatus=2
+"
+" UI    title
+set title           " change the terminal's title
+" UI	行与换行符
+set number          " 显示行号（line numbers）
+set colorcolumn=80  " 单行字符数提示
+set textwidth=80    " 设置一行显示字符数
+
+" UI	字符：不可见字符/空白字符，让行尾多余空白字符显示为可见的小方块。
+set list
+" set listchars=tab:»■,trail:■
+set listchars=tab:▸\ ,extends:❯,precedes:❮,nbsp:+,trail:■
+" set numberwidth=3
+augroup relative_numbers
+        autocmd!
+        autocmd InsertEnter * :set norelativenumber
+        autocmd InsertLeave * :set relativenumber
+augroup END
+" augroup numbertoggle
+"   autocmd!
+"   autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+"   autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+" augroup END
+
+" syntax
+syntax on
+syntax enable
+" Text after this column is not highlighted
+" set synmaxcol=500
+
+
+" spell check
+" set spell
+" set spelllang=en_us,cjk
+" set spelllangs=en,ch,jp
+
+
+" tags
+" 当前文件所在目录向上搜索，直到找到 tags 文件
+set tags=./.tags;,.tags
+" looks up and up (non-recursively) until / for tags files.
+" set tags=./tags;/,tags;/
+
+" time
+" 默认超时 1000 ms
+set timeoutlen=700
+" key codes 超时
+set ttimeoutlen=20
+" Idle time to write swap and trigger CursorHold
+set updatetime=100
+" Time in milliseconds for stopping display redraw
+set redrawtime=1500
+
+
+
+
+" ==========binary position==========
+" {{{
 " This is the most powerful cursor moving action
 " As its name shows the cursor moving acts in binary mode
 " <C-j> <C-k> binary move the cursor in vertical direction
@@ -36,7 +372,7 @@ endfunction
 function! s:BinaryClear()
     call <SID>ResetV()
     call <SID>ResetH()
-    echom "Binary position has benn cleared!"
+    echom "Binary position has been cleared!"
 endfunction
 
 function! s:BinaryPositionV(direction)

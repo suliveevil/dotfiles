@@ -24,9 +24,10 @@ brew "graphviz"
 brew "grex"
 brew "helix"
 brew "jq"
+brew "kakoune"
 brew "mas"
 brew "neofetch"
-brew "neovim", args: ["HEAD"]
+brew "neovim"
 brew "node"
 brew "pandoc"
 brew "php"
@@ -43,6 +44,7 @@ brew "felixkratz/formulae/svim"
 brew "laishulu/macism/macism"
 brew "markwu/personal/zeal", args: ["HEAD"]
 brew "yqrashawn/goku/goku"
+cask "adobe-acrobat-reader"
 cask "alacritty"
 cask "alfred"
 cask "baidunetdisk"
@@ -116,10 +118,12 @@ mas "Codeface", id: 1578175415
 mas "Codye", id: 1516894961
 mas "Color UI", id: 1092899208
 mas "ColorSlurp", id: 1287239339
+mas "CotEditor", id: 1024640650
 mas "Cursor Pro", id: 1447043133
 mas "CWS", id: 1598790017
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
+mas "Dependencies", id: 1538972026
 mas "Desktop Pets", id: 1575542220
 mas "Drafts", id: 1435957248
 mas "Evil Mineswifter", id: 1523249883
@@ -144,7 +148,6 @@ mas "Keynote 讲演", id: 409183694
 mas "Kuar", id: 1553562554
 mas "LanguageTool", id: 1534275760
 mas "LightNote", id: 1546030973
-mas "Lingocloud for Safari", id: 1567588461
 mas "Liquid", id: 569048352
 mas "Magnet Links", id: 1598258908
 mas "MarginNote 3", id: 1423522373
@@ -161,11 +164,14 @@ mas "OneTab", id: 1540160809
 mas "OwlOCR", id: 1499181666
 mas "Pages 文稿", id: 409201541
 mas "PD", id: 510365488
+mas "PDF Search", id: 1229271394
 mas "PDF Viewer", id: 1120099014
+mas "PiPifier", id: 1160374471
 mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
 mas "PopClip", id: 445189367
 mas "PotPlayer X", id: 1612400976
+mas "Qmenu", id: 1567442612
 mas "QQ", id: 451108668
 mas "QSpace", id: 1469774098
 mas "Redacted", id: 984968384
@@ -190,6 +196,8 @@ mas "Vimkey", id: 1585682577
 mas "Vimlike", id: 1584519802
 mas "VoiceExpress", id: 1434634466
 mas "Wappalyzer", id: 1520333300
+mas "Wayback Machine", id: 1472432422
+mas "Web Translator", id: 6443492610
 mas "X to Y", id: 1598259546
 mas "X-Reader", id: 1476139856
 mas "xSearch", id: 1579902068
