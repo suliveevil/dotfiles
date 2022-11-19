@@ -14,6 +14,8 @@
 [http]
 	sslVerify = false
 	proxy = http://127.0.0.1:31181
+[url "git@github.com:"]
+    insteadOf = https://github.com/
 
 [merge]
 tool=ultracompare
