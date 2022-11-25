@@ -1,0 +1,463 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	582
+#@/user_id	29c084a4-a1b2-43db-897a-9fc57eac2c65
+a 	啊	c=1 d=1 t=569
+ai 	愛	c=1 d=1 t=363
+ai qing 	愛情	c=1 d=1 t=65
+an quan 	安全	c=1 d=1.07945 t=550
+an quan fa 	安全法	c=1 d=1 t=505
+ban 	版	c=2 d=0.498343 t=558
+bao hu 	保護	c=0 d=0.1 t=535
+bei cheng wei 	被稱爲	c=1 d=1 t=243
+ben shen 	本身	c=1 d=1 t=381
+bi hua 	筆畫	c=2 d=1.72253 t=220
+bi ji 	筆記	c=0 d=0.1 t=388
+bi ji ruan jian 	筆記軟件	c=1 d=1 t=389
+bi lai bi qu 	比來比去	c=1 d=1 t=46
+bian ji 	編輯	c=3 d=1.64324 t=579
+bian ji qi 	編輯器	c=2 d=0.445439 t=582
+bian jian 	便箋	c=1 d=1 t=54
+bian qian 	便籤	c=2 d=1.97531 t=60
+bian tiao 	便條	c=1 d=1 t=56
+biao 	表	c=1 d=1 t=198
+biao qian 	標籤	c=0 d=0.1 t=290
+biao qian ye 	標籤頁	c=1 d=1 t=291
+biao qing fu hao 	表情符號	c=1 d=1 t=221
+bing 	並	c=2 d=2.04271 t=330
+bing shi yong 	並使用	c=1 d=1 t=279
+bu fen 	部分	c=0 d=0.1 t=438
+bu gan ni 	不干你	c=0 d=0.0960789 t=582
+bu quan 	補全	c=2 d=2.07773 t=450
+bu quan chuang kou 	補全窗口	c=1 d=1 t=451
+bu yi yang 	不一樣	c=1 d=1 t=402
+bu yong 	不用	c=0 d=0.1 t=460
+bu yong shu biao 	不用鼠標	c=1 d=1 t=461
+bu zhi chi 	不支持	c=1 d=1 t=209
+bu zhong 	不忠	c=0 d=0.1 t=366
+cai 	才	c=1 d=1 t=110
+cai feng 	裁縫	c=1 d=1 t=90
+can ji ren 	殘疾人	c=1 d=1 t=185
+cang jie 	倉頡	c=1 d=1 t=170
+cang jie shu ru fa 	倉頡輸入法	c=1 d=1 t=171
+ce zhong yu 	側重於	c=1 d=1 t=391
+cha jian 	插件	c=1 d=1 t=398
+chan pin 	產品	c=0 d=0.1 t=411
+chang 	常	c=1 d=1 t=96
+chang yong 	常用	c=0 d=0.1 t=233
+chang yong shuang pin 	常用雙拼	c=1 d=1 t=234
+chi cun 	尺寸	c=1 d=1 t=295
+chu li 	處理	c=1 d=1 t=387
+chu qu 	出去	c=2 d=1.96561 t=106
+chu shi 	初始	c=1 d=1 t=573
+chuang ge 	窗格	c=1 d=1 t=244
+chuang kou 	窗口	c=12 d=6.19916 t=450
+chuang kou gao du 	窗口高度	c=2 d=1.98511 t=300
+chuang kou guan li 	窗口管理	c=1 d=1 t=240
+chuang kou kuan du 	窗口寬度	c=1 d=1 t=308
+chui zhi 	垂直	c=1 d=1 t=333
+ci 	詞	c=0 d=0.1 t=422
+da 	大	c=0 d=0.1 t=467
+da fang xiang 	大方向	c=1 d=1 t=401
+da guo 	大國	c=1 d=1 t=370
+da mu zhi 	大拇指	c=2 d=1.99501 t=142
+da zi 	打字	c=4 d=3.93585 t=78
+dai ma fen xi 	代碼分析	c=1 d=1 t=465
+dai zhe 	帶着	c=1 d=1 t=97
+dang qian 	當前	c=2 d=1.65294 t=331
+dang qian chuang kou 	當前窗口	c=4 d=3.6951 t=314
+dang qian wen jian 	當前文件	c=1 d=1 t=332
+dao 	導	c=0 d=0.1 t=454
+dao de 	道德	c=0 d=0.1 t=368
+dao de dong wu 	道德動物	c=1 d=1 t=369
+dao lu jiao tong 	道路交通	c=1 d=1 t=504
+de 	地	c=1 d=1 t=132
+de 	的	c=12 d=3.91317 t=566
+de le 	得了	c=1 d=1 t=44
+de wo xia ke 	德沃夏克	c=1 d=1 t=224
+deng fen 	等分	c=1 d=1 t=309
+di bu 	底部	c=1 d=1 t=251
+di yi ge 	第一個	c=1 d=1 t=431
+dian ying 	電影	c=1 d=1 t=67
+diao huan 	調換	c=0 d=0.1 t=261
+ding duan 	頂端	c=0 d=0.1 t=277
+dong wu 	動物	c=0 d=0.1 t=368
+dou 	都	c=1 d=1 t=340
+du bo lin 	都柏林	c=1 d=1 t=374
+du yong 	都用	c=0 d=0.1 t=406
+duan 	端	c=1 d=1 t=516
+dui kang 	對抗	c=1 d=1 t=554
+dui xiang 	對象	c=0 d=0.1 t=355
+ei 	誒	c=0 d=0.1 t=495
+er 	而	c=2 d=0.709209 t=532
+er bi 	二筆	c=2 d=1.93707 t=174
+er he 	而和	c=0 d=0.1 t=432
+er ma chang shan 	而馬長山	c=1 d=1 t=533
+fa 	法	c=0 d=0.1 t=504
+fa guo 	法國	c=1 d=1 t=474
+fa lv 	法律	c=3 d=1.20406 t=506
+fa wen 	法文	c=1 d=1 t=215
+fan nao 	煩惱	c=0 d=0.1 t=356
+fang 	仿	c=1 d=1 t=466
+fang dao 	放到	c=2 d=2.0393 t=289
+fang dao zui di bu 	放到最底部	c=1 d=1 t=285
+fei she er 	費捨爾	c=0 d=0.1 t=367
+fei xiao tong 	費孝通	c=1 d=1 t=360
+fen lei 	分類	c=2 d=1.38481 t=343
+fen lie 	分裂	c=0 d=0.1 t=209
+fen shou 	分手	c=1 d=1 t=61
+feng qing 	馮清	c=1 d=0.937067 t=582
+fu fu 	夫婦	c=1 d=1 t=104
+gan jue 	感覺	c=1 d=1 t=124
+gan shen me 	幹什麼	c=0 d=0.0960789 t=582
+gang cai 	剛纔	c=1 d=1 t=253
+gao du 	高度	c=0 d=0.1 t=296
+gao ji 	高級	c=0 d=0.1 t=558
+gao ji ban 	高級版	c=1 d=1 t=559
+ge 	個	c=1 d=1 t=248
+ge ju 	格局	c=0 d=0.1 t=467
+ge ju jiu shi da 	格局就是大	c=1 d=1 t=468
+ge shi 	格式	c=2 d=1.99005 t=521
+gei ren 	給人	c=1 d=1 t=121
+gen bie ren 	跟別人	c=1 d=1 t=45
+geng 	更	c=1 d=1.09656 t=390
+geng qing xiang yu 	更傾向於	c=1 d=1 t=384
+gong ju 	工具	c=1 d=1 t=539
+gong neng 	功能	c=1 d=1 t=557
+gong you 	共有	c=0 d=0.1 t=438
+gong you bu fen 	共有部分	c=1 d=1 t=439
+gou jian 	構建	c=1 d=1 t=236
+gou wu 	購物	c=1 d=1 t=463
+gu dai 	古代	c=1 d=1 t=83
+guai zao 	拐棗	c=1 d=1 t=52
+guan bi 	關閉	c=3 d=2.10602 t=442
+guan bi chuang kou 	關閉窗口	c=1 d=1 t=310
+guan li 	管理	c=1 d=1.1 t=239
+guang xue 	光學	c=1 d=1 t=195
+gui 	歸	c=1 d=1 t=113
+gui bi 	規避	c=1 d=1 t=582
+gun dong 	滾動	c=0 d=0.199005 t=446
+guo biao 	國標	c=1 d=1 t=178
+ha ha 	哈哈	c=5 d=2.81242 t=582
+hai lun 	海倫	c=0 d=0.1 t=367
+hai lun fei she er 	海倫費捨爾	c=1 d=1 t=368
+hang 	行	c=1 d=1 t=577
+he 	和	c=2 d=0.965605 t=582
+he 	鶴	c=0 d=0.1 t=232
+hei hei 	嘿嘿	c=2 d=0.923116 t=582
+hei ming dan 	黑名單	c=3 d=2.87767 t=582
+hou xuan 	侯选	c=0 d=0.1 t=422
+hou xuan ci 	侯选詞	c=7 d=6.63588 t=448
+hou xuan ci wen dang 	侯选詞文檔	c=1 d=1 t=446
+hua ji 	滑稽	c=1 d=1 t=122
+hun yin 	婚姻	c=1 d=1 t=361
+huo 	或	c=2 d=1.41895 t=441
+ji shu 	技術	c=1 d=1 t=537
+jia jia 	加加	c=0 d=0.1 t=229
+jian 	鍵	c=6 d=2.20808 t=495
+jian cheng 	簡稱	c=1 d=1 t=352
+jian gou 	建構	c=1 d=1 t=237
+jian pan 	劍盤	c=0 d=0.1 t=211
+jian pan 	鍵盤	c=6 d=5.01722 t=555
+jian qie 	剪切	c=1 d=1 t=411
+jian suo 	檢索	c=1 d=1 t=378
+jian xiao 	減小	c=2 d=1.98511 t=301
+jian ying 	剪映	c=1 d=0.985112 t=582
+jiang 	將	c=5 d=4.66042 t=287
+jie hun 	結婚	c=0 d=0.1 t=364
+jin xing 	進行	c=1 d=1 t=261
+jing cheng 	京城	c=1 d=1 t=86
+jing ji ren 	經紀人	c=1 d=0.980199 t=582
+jing pin 	競品	c=5 d=4.35971 t=549
+jing xi 	精細	c=1 d=1 t=393
+jiu 	就	c=3 d=2.07223 t=405
+jiu gong ge 	九宮格	c=1 d=1 t=214
+jiu jian 	九鍵	c=1 d=1 t=150
+jiu shi 	就是	c=1 d=1.1305 t=569
+jue xin 	決心	c=1 d=1 t=63
+kai qi 	開啓	c=1 d=1 t=440
+kai shi 	開始	c=1 d=1 t=324
+kan bu guan 	看不慣	c=1 d=1 t=564
+ke 	可	c=0 d=0.099005 t=582
+ke yu yin zhuan wen zi 	可語音轉文字	c=1 d=0.995012 t=582
+ku men 	苦悶	c=0 d=0.1 t=129
+kuai huo 	快活	c=1 d=1 t=93
+kuai jie 	快捷	c=1 d=0.274645 t=495
+kuai jie ei jian 	快捷誒鍵	c=2 d=1.99501 t=497
+kuai jie jian 	快捷鍵	c=3 d=2.16931 t=544
+kuai le 	快樂	c=0 d=0.1 t=132
+kuai le qi lai 	快樂起來	c=1 d=1 t=133
+kuan du 	寬度	c=2 d=2.16258 t=307
+lao po 	老婆	c=1 d=1 t=98
+le 	了	c=2 d=0.946485 t=582
+li 	力	c=1 d=1 t=372
+lian 	連	c=1 d=1 t=338
+lian dong 	聯動	c=2 d=1.98511 t=513
+lian xi 	練習	c=1 d=1.09608 t=80
+liang zhe 	兩者	c=1 d=1 t=406
+lu shang 	路上	c=1 d=1 t=114
+lun zi 	輪子	c=0 d=0.1 t=403
+ma 	碼	c=1 d=1 t=179
+ma chang shan 	馬長山	c=0 d=0.1 t=532
+ma rong 	馬蓉	c=1 d=0.923116 t=582
+ma sai ke 	馬賽克	c=1 d=1 t=498
+mei 	沒	c=0 d=0.199501 t=356
+mei dui xiang 	沒對象	c=1 d=1 t=356
+mei fan nao 	沒煩惱	c=1 d=1 t=357
+mi yao 	密鑰	c=0 d=0.1 t=537
+mian ban 	面板	c=1 d=1 t=409
+mian fei ban 	免費版	c=1 d=1 t=558
+ming ling 	命令	c=2 d=1.97045 t=458
+mo shi 	模式	c=1 d=1 t=576
+na ge 	那個	c=0 d=0.1 t=432
+nao si wang 	腦死亡	c=1 d=1 t=347
+nei 	內	c=1 d=1 t=578
+nei ma 	內碼	c=1 d=1 t=157
+nei rong 	內容	c=0 d=0.1 t=393
+neng li 	能力	c=0 d=0.1 t=402
+ni 	你	c=1 d=1 t=565
+nv you 	女友	c=1 d=0.932394 t=582
+o 	哦	c=0 d=0.1 t=406
+o du yong 	哦都用	c=1 d=1 t=407
+pan jin lian 	潘金蓮	c=1 d=0.946485 t=582
+peng dao le 	碰到了	c=1 d=1 t=116
+pin 	拼	c=1 d=1 t=164
+pin yin 	拼音	c=4 d=3.36842 t=229
+pin yin jia jia 	拼音加加	c=1 d=1 t=230
+ping mu 	屏幕	c=0 d=0.1 t=280
+ping mu kuan du 	屏幕寬度	c=1 d=1 t=281
+ping xing 	平行	c=1 d=1 t=334
+qi che 	汽車	c=2 d=1.99501 t=561
+qi lai 	起來	c=0 d=0.1 t=132
+qi ta 	其他	c=3 d=1.55429 t=517
+qian 	前	c=1 d=0.97531 t=582
+qian jian pan 	前劍盤	c=1 d=1 t=212
+qian qi 	前妻	c=1 d=0.918512 t=582
+qie huan 	切換	c=0 d=0.118637 t=580
+qie huan chuang kou 	切換窗口	c=2 d=1.8825 t=270
+qie huan shu ru fa zhuang tai 	切換輸入法狀態	c=1 d=1 t=581
+qing bu zi jin 	情不自禁	c=1 d=1 t=131
+qing chen 	清晨	c=1 d=1 t=105
+qing fu 	情夫	c=1 d=0.960789 t=582
+qing xiang yu 	傾向於	c=0 d=0.1 t=383
+quan jian pan 	全鍵盤	c=1 d=1 t=213
+ri luo 	日落	c=0 d=0.1 t=108
+ri luo shi 	日落時	c=1 d=1 t=109
+ru guo mei you 	如果沒有	c=0 d=0.1 t=402
+ru guo mei you neng li 	如果沒有能力	c=1 d=1 t=403
+ru he 	如何	c=1 d=1.01177 t=500
+ru he lian xi 	如何練習	c=1 d=1 t=73
+ruan jian 	軟件	c=5 d=1.79855 t=511
+san bu 	散步	c=2 d=1.96561 t=107
+shang 	上	c=3 d=2.59427 t=274
+shang ci 	上次	c=1 d=1 t=252
+shang xia 	上下	c=1 d=1 t=335
+shang yi ge 	上一個	c=1 d=1 t=425
+sheng tai 	生態	c=5 d=4.38207 t=542
+sheng wu 	生物	c=1 d=1 t=344
+shi 	是	c=1 d=1 t=59
+shi 	時	c=0 d=0.1 t=108
+shi bie 	識別	c=2 d=1.99005 t=196
+shi he 	適合	c=2 d=1.99005 t=377
+shi pin 	視頻	c=0 d=0.0985112 t=582
+shi pin bian ji qi 	視頻編輯器	c=1 d=0.99005 t=582
+shi ren 	使人	c=1 d=1 t=128
+shi yong 	使用	c=1 d=1.03166 t=508
+shi zhang 	視障	c=1 d=1 t=186
+shi zhi 	食指	c=3 d=2.97032 t=145
+shou xie 	手寫	c=3 d=2.68087 t=219
+shou xie shu ru fa 	手寫輸入法	c=1 d=1 t=176
+shu biao 	鼠標	c=3 d=1.36782 t=556
+shu ju 	數據	c=0 d=0.1 t=458
+shu ju ku 	數據庫	c=2 d=1.98511 t=525
+shu ju xia zai 	數據下載	c=1 d=1 t=459
+shu ru 	輸入	c=3 d=0.904837 t=582
+shu ru fa 	輸入法	c=20 d=3.81608 t=582
+shu xu guan 	鼠鬚管	c=1 d=0.955997 t=582
+shuang pin 	雙拼	c=3 d=3.1965 t=233
+shui ping 	水平	c=1 d=1.09656 t=328
+shui ping chuang kou 	水平窗口	c=1 d=1 t=322
+shuo 	說	c=1 d=1 t=572
+si wang 	死亡	c=2 d=1.9802 t=346
+si wang yuan yin 	死亡原因	c=3 d=2.98506 t=351
+si wei 	思維	c=0 d=0.1 t=454
+si wei dao tu 	思維導圖	c=1 d=1 t=455
+si yin 	死因	c=2 d=1.99501 t=354
+sou 	搜	c=2 d=1.97531 t=480
+sou gou 	搜狗	c=1 d=1 t=228
+sou suo 	搜索	c=12 d=11.6572 t=488
+su 	蘇	c=1 d=1 t=371
+su lian 	蘇聯	c=1 d=1 t=471
+suo you 	所有	c=1 d=1 t=317
+suo zai 	所在	c=1 d=1 t=254
+ta 	他	c=2 d=1.84366 t=125
+ta men 	他們	c=2 d=1.94176 t=115
+tang wei 	湯唯	c=1 d=1 t=64
+tiao zheng 	調整	c=1 d=1 t=293
+ting zhang 	聽障	c=1 d=1 t=188
+tong xing 	通行	c=0 d=0.1 t=537
+tong xing mi yao 	通行密鑰	c=1 d=1 t=538
+tu 	圖	c=0 d=0.1 t=454
+tui chu 	退出	c=1 d=1 t=311
+tuo bei 	駝背	c=2 d=1.99005 t=120
+wan cheng 	完成	c=1 d=1.19303 t=436
+wan cheng bu quan 	完成補全	c=1 d=1 t=437
+wan cheng er he na ge bu quan 	完成而和那個補全	c=2 d=1.99501 t=434
+wan shua 	玩耍	c=1 d=1 t=101
+wang 	汪	c=0 d=0.1 t=459
+wang bao qiang 	王寶強	c=1 d=0.913931 t=582
+wang ji le 	忘記了	c=0 d=0.1 t=129
+wang ji le ku men 	忘記了苦悶	c=1 d=1 t=130
+wang xiao min 	汪小敏	c=1 d=1 t=460
+wang yi 	網易	c=0 d=0.1 t=453
+wang yi yun 	網易雲	c=1 d=1 t=454
+wang zhan 	網站	c=1 d=1 t=464
+wei 	爲	c=1 d=1 t=574
+wei he 	爲何	c=0 d=0.1 t=366
+wei he bu zhong 	爲何不忠	c=1 d=1 t=367
+wei ruan 	微軟	c=0 d=0.1 t=231
+wei ruan shuang pin 	微軟雙拼	c=1 d=1 t=232
+wei shen me 	爲什麼	c=0 d=0.1 t=364
+wei xian guan xi 	危險關係	c=1 d=1 t=362
+wei zhi 	位置	c=0 d=0.1 t=261
+wei zhi diao huan 	位置調換	c=1 d=1 t=262
+wen ben 	文本	c=1 d=1.06079 t=393
+wen ben nei rong 	文本內容	c=1 d=1 t=394
+wen dang 	文檔	c=2 d=2.07333 t=449
+wen jian 	文件	c=0 d=0.197045 t=331
+wen zi 	文字	c=1 d=0.676909 t=582
+wo 	我	c=2 d=1.08119 t=582
+wo de 	我的	c=1 d=0.937067 t=582
+wo gan shen me bu gan ni 	我幹什麼不干你	c=2 d=1.93605 t=582
+wo men 	我們	c=0 d=0.13588 t=569
+wo men jiu shi 	我們就是	c=1 d=1 t=570
+wo men wei shen me jie hun 	我們爲什麼結婚	c=1 d=1 t=365
+wu 	無	c=0 d=0.1 t=81
+wu bi 	五筆	c=3 d=2.49655 t=217
+wu bi hua 	五筆畫	c=1 d=1 t=172
+wu ming zhi 	無名指	c=1 d=1 t=138
+wu xu zhu ce 	無需註冊	c=1 d=1 t=82
+xi hao 	喜好	c=1 d=1 t=94
+xi xi 	嬉戲	c=1 d=1 t=95
+xia yi 	下一	c=1 d=1 t=247
+xia yi dai 	下一代	c=1 d=1 t=336
+xia yi ge 	下一個	c=1 d=1 t=259
+xia zai 	下載	c=0 d=0.1 t=458
+xian dai 	現代	c=1 d=0.941765 t=582
+xian ren 	現任	c=1 d=0.927743 t=582
+xian shi 	現實	c=1 d=1 t=489
+xian shi 	顯示	c=1 d=1 t=331
+xiang 	向	c=1 d=1 t=265
+xiang 	項	c=0 d=0.1 t=552
+xiang shang 	向上	c=0 d=0.1 t=446
+xiang shang gun dong 	向上滾動	c=1 d=1 t=447
+xiang tu 	鄉土	c=1 d=1 t=358
+xiang xia 	向下	c=1 d=0.514783 t=444
+xiang xia gun dong 	向下滾動	c=1 d=1 t=445
+xiao 	小	c=0 d=0.1 t=232
+xiao he shuang pin 	小鶴雙拼	c=1 d=1 t=233
+xiao hua 	笑話	c=1 d=1.09656 t=473
+xiao min 	小敏	c=0 d=0.1 t=459
+xiao mu zhi 	小拇指	c=1 d=1 t=137
+xin 	新	c=0 d=0.1 t=325
+xin de 	新的	c=1 d=1 t=290
+xin jian 	新建	c=3 d=2.93124 t=327
+xin shi ji 	新世紀	c=0 d=0.1 t=226
+xin shi ji ban 	新世紀版	c=1 d=1 t=227
+xin wen jian 	新文件	c=1 d=1 t=326
+xing ma 	形碼	c=2 d=1.8311 t=199
+xing qing 	性情	c=1 d=1 t=92
+xiong di 	兄弟	c=0 d=0.1 t=411
+xiong di chan pin 	兄弟產品	c=12 d=9.87264 t=543
+xu 	需	c=0 d=0.1 t=80
+xu ni xian shi 	虛擬現實	c=1 d=1 t=490
+xu yao 	需要	c=0 d=0.1 t=363
+xu yao xue xi 	需要学习	c=1 d=1 t=364
+xu zhu ce 	需註冊	c=1 d=1.1 t=81
+xuan xiang 	選項	c=1 d=1 t=453
+xuan yi 	懸疑	c=1 d=1 t=66
+xuan ze 	玄则	c=1 d=1 t=421
+xuan ze 	選擇	c=4 d=3.91635 t=430
+xue xi 	学习	c=0 d=0.1 t=363
+yan tan ju zhi 	言谈举止	c=1 d=1 t=127
+yan zheng 	驗證	c=1 d=1 t=492
+yang bu qi 	養不起	c=0 d=0.1 t=340
+yang bu qi le 	養不起了	c=1 d=1 t=341
+yang zi 	樣子	c=1 d=1 t=567
+ye 	頁	c=0 d=0.1 t=290
+yi dong 	移動	c=2 d=1.99005 t=271
+yi ge 	一個	c=2 d=1.86936 t=117
+yi lai 	依賴	c=3 d=2.98506 t=417
+yi tian 	一天	c=1 d=1 t=102
+yi xia zi 	一下子	c=1 d=1 t=129
+yin cang 	隱藏	c=2 d=1.77492 t=501
+yin si 	隱私	c=3 d=3.10538 t=552
+yin si bao hu 	隱私保護	c=1 d=1 t=536
+yin si xiang 	隱私項	c=1 d=1 t=553
+yin wei 	因爲	c=1 d=1 t=380
+yin xing 	音形	c=1 d=1 t=163
+ying wen 	英文	c=3 d=1.25413 t=575
+ying wen ming 	英文名	c=1 d=1 t=41
+you 	又	c=1 d=1 t=366
+you 	右	c=2 d=1.8781 t=292
+you shou 	右手	c=1 d=1 t=136
+you wan 	遊玩	c=1 d=1 t=111
+you xi 	遊戲	c=1 d=1 t=462
+you ya 	優雅	c=0 d=0.1 t=41
+you ya zi ji 	優雅自己	c=1 d=1 t=42
+yu 	與	c=1 d=1 t=258
+yu lan 	預覽	c=1 d=1 t=379
+yu yin 	語音	c=3 d=0.367036 t=582
+yu yin shi bie 	語音識別	c=1 d=1 t=197
+yuan shu ju 	元數據	c=1 d=1 t=373
+yun 	雲	c=0 d=0.1 t=453
+zai 	在	c=1 d=1 t=241
+zai xian 	在線	c=1 d=1 t=79
+zao 	造	c=0 d=0.1 t=403
+zao lun zi 	造輪子	c=1 d=1 t=404
+zeng da 	增大	c=2 d=1.96079 t=304
+zhe 	這	c=1 d=1 t=119
+zhe jiu shi 	這就是	c=4 d=2.82652 t=582
+zheng li 	整理	c=1 d=1 t=392
+zheng ma 	鄭碼	c=2 d=1.99501 t=168
+zheng ze biao da shi 	正則表達式	c=3 d=2.98012 t=494
+zhi 	至	c=1 d=1 t=246
+zhi chi 	支持	c=3 d=2.96042 t=523
+zhi dao 	直到	c=1 d=1 t=108
+zhi fa 	指法	c=1 d=1 t=134
+zhi hu 	知乎	c=1 d=0.951229 t=582
+zhi neng 	智能	c=1 d=1 t=235
+zhi zhang 	肢障	c=1 d=1 t=187
+zhong 	中	c=2 d=1.4607 t=242
+zhong guo 	中國	c=3 d=1.80911 t=472
+zhong guo xiao hua 	中國笑話	c=3 d=2.98012 t=470
+zhong hua ren min gong he guo 	中華人民共和國	c=1 d=1 t=503
+zhong wen 	中文	c=2 d=1.10487 t=528
+zhong zhi 	中指	c=1 d=1 t=139
+zhu ce 	註冊	c=0 d=0.1 t=80
+zhu ti 	主題	c=2 d=1 t=582
+zhu zhe 	住着	c=1 d=1 t=88
+zhuan 	轉	c=0 d=0.099005 t=582
+zhuang tai 	狀態	c=0 d=0.1 t=580
+zi dong 	自動	c=2 d=1.91393 t=580
+zi fu 	字符	c=1 d=1 t=396
+zi ji 	自己	c=1 d=1.02254 t=339
+zi ji de 	自己的	c=1 d=0.99005 t=582
+zi mu 	字幕	c=1 d=1 t=582
+zi ran ma 	自然碼	c=1 d=1.09608 t=184
+zi ran ma shu ru fa 	自然碼輸入法	c=1 d=1 t=177
+zi sha 	自殺	c=1 d=1 t=345
+zi ti 	字體	c=1 d=1 t=410
+zui 	最	c=1 d=0.416637 t=277
+zui da 	最大	c=1 d=1 t=280
+zui da hua 	最大化	c=2 d=1.96079 t=307
+zui di bu 	最底部	c=0 d=0.1 t=284
+zui ding duan 	最頂端	c=1 d=1 t=278
+zui hou yi ge 	最後一個	c=1 d=1 t=428
+zuo 	左	c=1 d=1 t=273
+zuo ce 	左側	c=2 d=1.83527 t=286
+zuo shou 	左手	c=1 d=1 t=135
+zuo you 	左右	c=0 d=0.1 t=209
+zuo you fen lie 	左右分裂	c=1 d=1 t=210

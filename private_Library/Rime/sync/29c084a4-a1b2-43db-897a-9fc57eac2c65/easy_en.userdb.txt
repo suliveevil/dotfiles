@@ -1,0 +1,29 @@
+# Rime user dictionary
+#@/db_name	easy_en
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	20
+#@/user_id	29c084a4-a1b2-43db-897a-9fc57eac2c65
+alfred 	alfred	c=3 d=2.98506 t=5
+author 	author	c=1 d=1 t=2
+change 	change	c=1 d=1 t=18
+compile 	compile	c=1 d=1 t=11
+default 	default	c=1 d=1 t=19
+english 	english	c=1 d=1 t=20
+find 	find	c=1 d=1 t=4
+github 	GitHub	c=1 d=1 t=12
+helm 	helm	c=1 d=1 t=13
+image 	image	c=1 d=1 t=6
+machine 	machine	c=1 d=1 t=16
+markdown 	markdown	c=1 d=1 t=3
+match 	match	c=1 d=1 t=8
+obsidian 	obsidian	c=3 d=2.97516 t=10
+order 	order	c=1 d=1 t=14
+orphan 	orphan	c=1 d=1 t=5
+screen 	screen	c=1 d=1 t=15
+search 	search	c=3 d=2.98506 t=9
+translate 	translate	c=1 d=1 t=17
+trigger 	trigger	c=1 d=1 t=6
+universal 	universal	c=1 d=1 t=7
+what 	what	c=1 d=1 t=20
+which 	which	c=1 d=1 t=10

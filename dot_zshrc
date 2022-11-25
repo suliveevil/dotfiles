@@ -1,15 +1,17 @@
+
+
+
+################################### chezmoi ##################################
 alias cm='chezmoi'
-
-
-
-
-
-
-
-
-
-
-
-
-
+################################## spaceship #################################
+source "/opt/homebrew/opt/spaceship/spaceship.zsh"
+##################################  thefuck  #################################
+eval $(thefuck --alias)
+###################################   fzf   ##################################
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+###################################  z.lua  ##################################
+eval "$(lua /opt/homebrew/Cellar/z.lua/1.8.16/share/z.lua/z.lua --init zsh)"
+alias zh='z -I -t .' # jump to history
+alias zf='z -I'      # use fzf to select in multiple matches
+alias mpv="iina-cli"
 
