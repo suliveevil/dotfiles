@@ -12,8 +12,7 @@
 [commit]
 	template = /Users/suliveevil/.stCommitMsg
 [http]
-	sslVerify = false
-	proxy = http://127.0.0.1:31181
+	sslVerify = true
 [url "git@github.com:"]
     insteadOf = https://github.com/
 
@@ -47,5 +46,3 @@ cmd=\"/Applications/UltraCompare.app/Contents/MacOS/UltraCompare\" -gitdt "$LOCA
 	helper = store
 [safe]
 	directory = /opt/homebrew/Library/Taps/homebrew/homebrew-services
-[https]
-	proxy = http://127.0.0.1:31181

@@ -1,3 +1,16 @@
+;; karabiner
+
+;; cheatsheet
+;; ! for mandatory
+;; !! for mandatory command + control + optional + shift (hyper)
+;; # for optional
+;; ## for optional any
+;; C T O S for left command control optional shift
+;; Q W E R for right command control optional shift
+;; need to prefix C T O S F with ! or #
+;; F for fn
+;; P for caps_lock
+
 {:simlayers {:caps-mode {:key :caps_lock}
              :mouse-mode {:key :a}}
  :simlayer-threshold 250
@@ -70,28 +83,28 @@
                  [:!QWEROj :!Odown_arrow]
                  [:!QWEROk :!Oup_arrow]
                  [:!QWEROl :!Oright_arrow]
-                 [:!QWEROa :!COa]
-                 [:!QWEROb :!COb]
-                 [:!QWEROc :!COc]
-                 [:!QWEROd :!COd]
-                 [:!QWEROe :!COe]
-                 [:!QWEROf :!COf]
-                 [:!QWEROg :!COg]
-                 [:!QWEROi :!COi]
-                 [:!QWEROm :!COm]
-                 [:!QWEROn :!COn]
-                 [:!QWEROo :!COo]
-                 [:!QWEROp :!COp]
-                 [:!QWEROq :!COq]
-                 [:!QWEROr :!COr]
-                 [:!QWEROs :!COs]
-                 [:!QWEROt :!COt]
-                 [:!QWEROu :!COu]
-                 [:!QWEROv :!COv]
-                 [:!QWEROw :!COw]
-                 [:!QWEROx :!COx]
-                 [:!QWEROy :!COy]
-                 [:!QWEROz :!COz]
+                 [:!QWEROa :!TOa]
+                 [:!QWEROb :!TOb]
+                 [:!QWEROc :!TOc]
+                 [:!QWEROd :!TOd]
+                 [:!QWEROe :!TOe]
+                 [:!QWEROf :!TOf]
+                 [:!QWEROg :!TOg]
+                 [:!QWEROi :!TOi]
+                 [:!QWEROm :!TOm]
+                 [:!QWEROn :!TOn]
+                 [:!QWEROo :!TOo]
+                 [:!QWEROp :!TOp]
+                 [:!QWEROq :!TOq]
+                 [:!QWEROr :!TOr]
+                 [:!QWEROs :!TOs]
+                 [:!QWEROt :!TOt]
+                 [:!QWEROu :!TOu]
+                 [:!QWEROv :!TOv]
+                 [:!QWEROw :!TOw]
+                 [:!QWEROx :!TOx]
+                 [:!QWEROy :!TOy]
+                 [:!QWEROz :!TOz]
                  ]}
         {:des "Hyper + Shift"
          :rules [[:!QWERSspacebar :!Sreturn_or_enter]
