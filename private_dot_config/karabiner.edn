@@ -16,7 +16,7 @@
  :simlayer-threshold 250
  :main [{:des "Capslock to Hyper(hold) | Esc(click)"
          :rules [[:##caps_lock {:key :right_command :modi [:right_control :right_option :right_shift]} nil {:alone :escape}]
-        ; simultaneously =⌫ to delete backward
+        ;; simultaneously =⌫ to delete backward
                  [[:equal_sign :delete_or_backspace] :delete_forward]]}
         {:des "Hyper to Ctrl"
          :rules [[:!QWERtab :!Ttab]
@@ -60,29 +60,39 @@
                  [:!QWERz :!Tz]
                  [:!QWERspacebar :!Tspacebar] ;; Control-Space: change input method
                  ]}
-        {:des "Hyper + Command"
-         :rules [[:!QWERCdelete_or_backspace :!Cdelete_or_backspace]
-                 [:!QWERCspacebar :!Creturn_or_enter]
-        ;; : arrow + command
-                 [:!QWERCh :!Cleft_arrow]
-                 [:!QWERCj :!Cdown_arrow]
-                 [:!QWERCk :!Cup_arrow]
-                 [:!QWERCl :!Cright_arrow]]}
-        {:des "Hyper + Ctrl"
-         :rules [[:!QWERTspacebar :!Treturn_or_enter]
-        ;; : arrow + control
-                 [:!QWERTh :!Tleft_arrow]
-                 [:!QWERTj :!Tdown_arrow]
-                 [:!QWERTk :!Tup_arrow]
-                 [:!QWERTl :!Tright_arrow]]}
-        {:des "Hyper + Option"
-         :rules [[:!QWEROdelete_or_backspace :!Odelete_or_backspace]
-                 [:!QWEROspacebar :!Oreturn_or_enter]
-        ;; Cursor Movement - Word : arrow + option
-                 [:!QWEROh :!Oleft_arrow]
-                 [:!QWEROj :!Odown_arrow]
-                 [:!QWEROk :!Oup_arrow]
-                 [:!QWEROl :!Oright_arrow]
+        {:des "Hyper + Ctrl -> ???"
+         :rules []}
+        {:des "Hyper + Command -> Command + Control"
+         :rules [
+                 [:!QWERCa :!CTa]
+                 [:!QWERCb :!CTb]
+                 [:!QWERCc :!CTc]
+                 [:!QWERCd :!CTd]
+                 [:!QWERCe :!CTe]
+                 [:!QWERCf :!CTf]
+                 [:!QWERCg :!CTg]
+                 [:!QWERCh :!CTh]
+                 [:!QWERCi :!CTi]
+                 [:!QWERCj :!CTj]
+                 [:!QWERCk :!CTk]
+                 [:!QWERCl :!CTl]
+                 [:!QWERCm :!CTm]
+                 [:!QWERCn :!CTn]
+                 [:!QWERCo :!CTo]
+                 [:!QWERCp :!CTp]
+                 [:!QWERCq :!CTq]
+                 [:!QWERCr :!CTr]
+                 [:!QWERCs :!CTs]
+                 [:!QWERCt :!CTt]
+                 [:!QWERCu :!CTu]
+                 [:!QWERCv :!CTv]
+                 [:!QWERCw :!CTw]
+                 [:!QWERCx :!CTx]
+                 [:!QWERCy :!CTy]
+                 [:!QWERCz :!CTz]
+                 ]}
+        {:des "Hyper + Option -> Control + Option"
+         :rules [
                  [:!QWEROa :!TOa]
                  [:!QWEROb :!TOb]
                  [:!QWEROc :!TOc]
@@ -90,7 +100,11 @@
                  [:!QWEROe :!TOe]
                  [:!QWEROf :!TOf]
                  [:!QWEROg :!TOg]
+                 [:!QWEROh :!TOh]
                  [:!QWEROi :!TOi]
+                 [:!QWEROj :!TOj]
+                 [:!QWEROk :!TOk]
+                 [:!QWEROl :!TOl]
                  [:!QWEROm :!TOm]
                  [:!QWEROn :!TOn]
                  [:!QWEROo :!TOo]
@@ -106,41 +120,101 @@
                  [:!QWEROy :!TOy]
                  [:!QWEROz :!TOz]
                  ]}
-        {:des "Hyper + Shift"
-         :rules [[:!QWERSspacebar :!Sreturn_or_enter]
-        ;; Cursor Selection : arrow + shift
-                 [:!QWERSh :!Sleft_arrow]
-                 [:!QWERSj :!Sdown_arrow]
-                 [:!QWERSk :!Sup_arrow]
-                 [:!QWERSl :!Sright_arrow]]}
-        {:des "Hyper + Command + Ctrl"
+        {:des "Hyper + Shift -> Control + Shift"
+         :rules [
+                 [:!QWERSa :!TSa]
+                 [:!QWERSb :!TSb]
+                 [:!QWERSc :!TSc]
+                 [:!QWERSd :!TSd]
+                 [:!QWERSe :!TSe]
+                 [:!QWERSf :!TSf]
+                 [:!QWERSg :!TSg]
+                 [:!QWERSh :!TSh]
+                 [:!QWERSi :!TSi]
+                 [:!QWERSj :!TSj]
+                 [:!QWERSk :!TSk]
+                 [:!QWERSl :!TSl]
+                 [:!QWERSm :!TSm]
+                 [:!QWERSn :!TSn]
+                 [:!QWERSo :!TSo]
+                 [:!QWERSp :!TSp]
+                 [:!QWERSq :!TSq]
+                 [:!QWERSr :!TSr]
+                 [:!QWERSs :!TSs]
+                 [:!QWERSt :!TSt]
+                 [:!QWERSu :!TSu]
+                 [:!QWERSv :!TSv]
+                 [:!QWERSw :!TSw]
+                 [:!QWERSx :!TSx]
+                 [:!QWERSy :!TSy]
+                 [:!QWERSz :!TSz]
+         ]}
+        {:des "Hyper + Command + Ctrl -> ???"
          :rules []}
-        {:des "Hyper + Command + Option"
-         :rules [;; : arrow + command + option
-                 [:!QWERCOh :!COleft_arrow]
-                 [:!QWERCOj :!COdown_arrow]
-                 [:!QWERCOk :!COup_arrow]
-                 [:!QWERCOl :!COright_arrow]]}
-        {:des "Hyper + Command + Shift"
-         :rules [;; : arrow + command + shift
-                 [:!QWERCSh :!CSleft_arrow]
-                 [:!QWERCSj :!CSdown_arrow]
-                 [:!QWERCSk :!CSup_arrow]
-                 [:!QWERCSl :!CSright_arrow]]}
-        {:des "Hyper + Ctrl + Option"
-         :rules [;; : arrow + control+ option
-                 [:!QWEROTh :!TOleft_arrow]
-                 [:!QWEROTj :!TOdown_arrow]
-                 [:!QWEROTk :!TOup_arrow]
-                 [:!QWEROTl :!TOright_arrow]]}
-        {:des "Hyper + Ctrl + Shift"
+        {:des "Hyper + Command + Option -> ???"
          :rules []}
-        {:des "Hyper + Option + Shift"
-         :rules [;; Cursor Selection - Word : arrow + option + shift
-                 [:!QWEROSh :!SOleft_arrow]
-                 [:!QWEROSj :!SOdown_arrow]
-                 [:!QWEROSk :!SOup_arrow]
-                 [:!QWEROSl :!SOright_arrow]]}
+        {:des "Hyper + Command + Shift -> Command + Control + Shift"
+         :rules [
+                 [:!QWERCSa :!CTSa]
+                 [:!QWERCSb :!CTSb]
+                 [:!QWERCSc :!CTSc]
+                 [:!QWERCSd :!CTSd]
+                 [:!QWERCSe :!CTSe]
+                 [:!QWERCSf :!CTSf]
+                 [:!QWERCSg :!CTSg]
+                 [:!QWERCSh :!CTSh]
+                 [:!QWERCSi :!CTSi]
+                 [:!QWERCSj :!CTSj]
+                 [:!QWERCSk :!CTSk]
+                 [:!QWERCSl :!CTSl]
+                 [:!QWERCSm :!CTSm]
+                 [:!QWERCSn :!CTSn]
+                 [:!QWERCSo :!CTSo]
+                 [:!QWERCSp :!CTSp]
+                 [:!QWERCSq :!CTSq]
+                 [:!QWERCSr :!CTSr]
+                 [:!QWERCSs :!CTSs]
+                 [:!QWERCSt :!CTSt]
+                 [:!QWERCSu :!CTSu]
+                 [:!QWERCSv :!CTSv]
+                 [:!QWERCSw :!CTSw]
+                 [:!QWERCSx :!CTSx]
+                 [:!QWERCSy :!CTSy]
+                 [:!QWERCSz :!CTSz]
+         ]}
+        {:des "Hyper + Ctrl + Option -> ???"
+         :rules []}
+        {:des "Hyper + Ctrl + Shift -> ???"
+         :rules []}
+        {:des "Hyper + Option + Shift -> Control + Option + Shift"
+         :rules [
+                 [:!QWEROSa :!TOSa]
+                 [:!QWEROSb :!TOSb]
+                 [:!QWEROSc :!TOSc]
+                 [:!QWEROSd :!TOSd]
+                 [:!QWEROSe :!TOSe]
+                 [:!QWEROSf :!TOSf]
+                 [:!QWEROSg :!TOSg]
+                 [:!QWEROSh :!TOSh]
+                 [:!QWEROSi :!TOSi]
+                 [:!QWEROSj :!TOSj]
+                 [:!QWEROSk :!TOSk]
+                 [:!QWEROSl :!TOSl]
+                 [:!QWEROSm :!TOSm]
+                 [:!QWEROSn :!TOSn]
+                 [:!QWEROSo :!TOSo]
+                 [:!QWEROSp :!TOSp]
+                 [:!QWEROSq :!TOSq]
+                 [:!QWEROSr :!TOSr]
+                 [:!QWEROSs :!TOSs]
+                 [:!QWEROSt :!TOSt]
+                 [:!QWEROSu :!TOSu]
+                 [:!QWEROSv :!TOSv]
+                 [:!QWEROSw :!TOSw]
+                 [:!QWEROSx :!TOSx]
+                 [:!QWEROSy :!TOSy]
+                 [:!QWEROSz :!TOSz]
+         ]}
         {:des "mouse move"
          :rules [:mouse-mode
                  [:h {:mkey {:x -1600}}]
