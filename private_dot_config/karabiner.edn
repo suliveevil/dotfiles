@@ -14,24 +14,67 @@
 {:simlayers {:caps-mode {:key :caps_lock}
              :mouse-mode {:key :a}}
  :simlayer-threshold 250
- :main [{:des "Capslock to Hyper(hold) | Esc(click)"
+ :main [{:des "Capslock to Hyper(hold) | Esc(click) 2022-12-04 17:10:18 +0800"
          :rules [[:##caps_lock {:key :right_command :modi [:right_control :right_option :right_shift]} nil {:alone :escape}]
         ;; simultaneously =⌫ to delete backward
                  [[:equal_sign :delete_or_backspace] :delete_forward]]}
         {:des "Hyper to Ctrl"
-         :rules [[:!QWERtab :!Ttab]
-                 [:!QWERhyphen :home]
-                 [:!QWERequal_sign :end]
+         :rules [;;
+                 ;; grave_accent_and_tilde
+                 ;; 1
+                 ;; 2
+                 ;; 3
+                 ;; 4
+                 ;; 5
+                 ;; 6
+                 ;; 7
+                 ;; 8
+                 ;; 9
+                 ;; 0
+                 [:!QWERhyphen              :home]       ;; Hyper+- ➡️ Home
+                 [:!QWERequal_sign          :end]        ;; Hyper+= ➡️ End
                  [:!QWERdelete_or_backspace :!Tdelete_or_backspace]
-                 [:!QWERopen_bracket :!Topen_bracket]
-                 [:!QWERclose_bracket :!Tclose_bracket]
-                 [:!QWERbackslash :!Tbackslash]
-                 [:!QWERsemicolon :!Tsemicolon]
-                 [:!QWERquote :!Tquote]
-                 [:!QWERreturn_or_enter :!Treturn_or_enter]
-                 [:!QWERcomma :!Tcomma]
-                 [:!QWERperiod :!Tperiod]
-                 [:!QWERslash :!Tslash]
+                 ;;
+                 [:!QWERtab                 :!Ttab]
+                 ;; Q
+                 ;; W
+                 ;; E
+                 ;; R
+                 ;; T
+                 ;; Y
+                 ;; U
+                 ;; I
+                 ;; O
+                 ;; P
+                 [:!QWERopen_bracket        :!Topen_bracket]
+                 [:!QWERclose_bracket       :!Tclose_bracket]
+                 [:!QWERbackslash           :!Tbackslash]
+                 ;;
+                 ;; A
+                 ;; S
+                 ;; D
+                 ;; F
+                 ;; G
+                 ;; H
+                 ;; J
+                 ;; K
+                 ;; L
+                 [:!QWERsemicolon           :!Tsemicolon]
+                 [:!QWERquote               :!Tquote]
+                 [:!QWERreturn_or_enter     :!Treturn_or_enter]
+                 ;;
+                 ;; Z
+                 ;; X
+                 ;; C
+                 ;; V
+                 ;; B
+                 ;; N
+                 ;; M
+                 [:!QWERcomma               :!Tcomma]
+                 [:!QWERperiod              :!Tperiod]
+                 [:!QWERslash               :!Tslash]
+                 ;;
+                 [:!QWERspacebar            :!Tspacebar] ;; input method toggle
                  [:!QWERa :!Ta]
                  [:!QWERb :!Tb]
                  [:!QWERc :!Tc]
@@ -58,7 +101,10 @@
                  [:!QWERx :!Tx]
                  [:!QWERy :!Ty]
                  [:!QWERz :!Tz]
-                 [:!QWERspacebar :!Tspacebar] ;; Control-Space: change input method
+                 ;; left_arrow
+                 ;; right_arrow
+                 ;; up_arrow
+                 ;; down_arrow
                  ]}
         {:des "Hyper + Ctrl -> ???"
          :rules []}
@@ -248,3 +294,4 @@
                  [:0 :delete_or_backspace]
                  [:!C0 :!Cdelete_or_backspace]
                  [:!O0 :!Odelete_or_backspace]]}]}
+

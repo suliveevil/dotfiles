@@ -7,6 +7,7 @@ aspell
 Backtab
 Beancount
 bibtex
+Bookerly
 brainfuck
 brotli
 bufferline
@@ -23,6 +24,7 @@ cnfonts
 Colemak
 colorscheme
 conventional-changelog
+CPython
 cscope
 Csharp
 ctags
@@ -86,6 +88,7 @@ infty
 inputrc
 IntelliCode
 ipv6
+IPython
 itmz
 iXnote
 jieba
@@ -179,6 +182,7 @@ Shirfine
 Shottr
 Snipaste
 Soulver
+sourcekit
 Sourcery
 Spacebar
 Spacemacs

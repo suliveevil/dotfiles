@@ -21,6 +21,7 @@ brew "fd"
 brew "tesseract"
 brew "ffmpeg"
 brew "fzf"
+brew "gcc"
 brew "git-lfs"
 brew "librsvg"
 brew "graphviz"
@@ -47,12 +48,13 @@ brew "tree"
 brew "universal-ctags", link: false
 brew "wget"
 brew "z.lua"
-brew "d12frosted/emacs-plus/emacs-plus@29", args: ["with-dbus", "with-debug", "with-mailutils", "with-no-frame-refocus", "with-xwidgets"]
+brew "d12frosted/emacs-plus/emacs-plus@30", args: ["with-dbus", "with-debug", "with-mailutils", "with-no-frame-refocus", "with-xwidgets"]
 brew "felixkratz/formulae/svim"
 brew "laishulu/macism/macism"
 brew "markwu/personal/zeal", args: ["HEAD"]
 brew "terrastruct/d2/d2"
 brew "yqrashawn/goku/goku"
+cask "activitywatch"
 cask "adobe-acrobat-reader"
 cask "alacritty"
 cask "alfred"
@@ -78,8 +80,10 @@ cask "gephi"
 cask "github"
 cask "grammarly-desktop"
 cask "grandperspective"
+cask "hammerspoon"
 cask "handbrake"
 cask "iina"
+cask "inkscape"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keycastr"
@@ -125,7 +129,6 @@ mas "Billfish for Safari Extension", id: 1627430658
 mas "Bitwarden", id: 1352778147
 mas "Bob", id: 1630034110
 mas "Carbo", id: 956811074
-mas "Cleaner", id: 1597938160
 mas "CLOx Transcription", id: 1523222131
 mas "Codeface", id: 1578175415
 mas "Codye", id: 1516894961
@@ -152,6 +155,7 @@ mas "Grammar Check", id: 1632607331
 mas "Grammarly for Safari", id: 1462114288
 mas "HazeOver", id: 430798174
 mas "Hex Fiend", id: 1342896380
+mas "iBar", id: 6443843900
 mas "iMovie 剪辑", id: 408981434
 mas "Infuse", id: 1136220934
 mas "Internet Access Policy Viewer", id: 1482630322
