@@ -122,6 +122,7 @@ cask "yesplaymusic"
 cask "zettlr"
 mas "Agent A", id: 1446601134
 mas "Amphetamine", id: 937984704
+mas "Anybox", id: 1593408455
 mas "Aqua Swatch", id: 1565479346
 mas "BeMyEars", id: 1577662679
 mas "BeyondPlayer Lite", id: 1444389594
