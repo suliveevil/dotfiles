@@ -1,3 +1,4 @@
+# export PATH=$PATH:~/.cargo/bin
 # export GOKU_EDN_CONFIG_FILE="~/.config/goku/karabiner.edn"
 ################################### chezmoi ##################################
 alias cm='chezmoi'
