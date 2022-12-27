@@ -46,3 +46,7 @@ cmd=\"/Applications/UltraCompare.app/Contents/MacOS/UltraCompare\" -gitdt "$LOCA
 	helper = store
 [safe]
 	directory = /opt/homebrew/Library/Taps/homebrew/homebrew-services
+[submodule]
+	recurse = true
+[url "https://ghproxy.com/https://github"]
+	insteadOf = https://github

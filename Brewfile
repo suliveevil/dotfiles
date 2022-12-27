@@ -16,6 +16,8 @@ tap "terrastruct/d2"
 tap "yqrashawn/goku"
 brew "awk"
 brew "chezmoi"
+brew "coreutils"
+brew "d2"
 brew "doxygen"
 brew "fd"
 brew "tesseract"
@@ -32,36 +34,44 @@ brew "imagemagick"
 brew "jq"
 brew "kakoune"
 brew "mas"
+brew "media-info"
 brew "neofetch"
 brew "neovim", args: ["HEAD"]
 brew "node"
 brew "pandoc"
 brew "php"
+brew "poppler"
+brew "qt"
 brew "ripgrep"
 brew "ripgrep-all"
+brew "rustup-init"
 brew "spaceship"
 brew "swiftplantuml"
 brew "tag"
 brew "thefuck"
 brew "tldr"
 brew "tree"
-brew "universal-ctags", link: false
+brew "universal-ctags"
 brew "wget"
+brew "xapian"
+brew "yq"
 brew "z.lua"
 brew "d12frosted/emacs-plus/emacs-plus@30", args: ["with-dbus", "with-debug", "with-mailutils", "with-no-frame-refocus", "with-xwidgets"]
 brew "felixkratz/formulae/svim"
 brew "laishulu/macism/macism"
 brew "markwu/personal/zeal", args: ["HEAD"]
-brew "terrastruct/d2/d2"
 brew "yqrashawn/goku/goku"
 cask "activitywatch"
 cask "adobe-acrobat-reader"
 cask "alacritty"
 cask "alfred"
+cask "audacity"
 cask "baidunetdisk"
 cask "beekeeper-studio"
+cask "buzz"
 cask "calibre"
 cask "cheatsheet"
+cask "db-browser-for-sqlite"
 cask "dbeaver-community"
 cask "deepl"
 cask "digikam"
@@ -73,6 +83,7 @@ cask "firefox"
 cask "font-lxgw-wenkai"
 cask "font-noto-sans-mono"
 cask "font-sarasa-nerd"
+cask "font-source-code-pro"
 cask "free-download-manager"
 cask "freeplane"
 cask "geany"
@@ -87,8 +98,10 @@ cask "inkscape"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keycastr"
+cask "languagetool"
 cask "latest"
 cask "libreoffice"
+cask "licecap"
 cask "little-snitch"
 cask "logseq"
 cask "lx-music"
@@ -104,22 +117,24 @@ cask "obs"
 cask "obsidian"
 cask "qlstephen"
 cask "qspace-pro"
+cask "scrolla"
 cask "showyedge"
 cask "skim"
 cask "sourcetree"
 cask "sqlitestudio"
 cask "squirrel"
-cask "swiftplantumlapp"
 cask "switchhosts"
 cask "syntax-highlight"
 cask "tencent-lemon"
 cask "thunder"
 cask "vimr"
 cask "visual-studio-code"
-cask "warp"
+cask "wireshark"
 cask "wpsoffice-cn"
 cask "yesplaymusic"
+cask "youtype"
 cask "zettlr"
+mas "Actions", id: 1586435171
 mas "Agent A", id: 1446601134
 mas "Amphetamine", id: 937984704
 mas "Anybox", id: 1593408455
@@ -135,6 +150,7 @@ mas "Codeface", id: 1578175415
 mas "Codye", id: 1516894961
 mas "Color UI", id: 1092899208
 mas "ColorSlurp", id: 1287239339
+mas "Compressor Pro", id: 1530364526
 mas "CotEditor", id: 1024640650
 mas "Cursor Pro", id: 1447043133
 mas "CWS", id: 1598790017
@@ -146,10 +162,12 @@ mas "Desktop Pets", id: 1575542220
 mas "Disk Graph", id: 697942581
 mas "Drafts", id: 1435957248
 mas "Evil Mineswifter", id: 1523249883
+mas "FFmpeg Generator", id: 6444012595
 mas "Fig Player", id: 1612400976
 mas "File Icons for GitHub and GitLab", id: 1631366167
 mas "Fonts Ninja for Safari", id: 1480227114
 mas "Foxmail", id: 617950461
+mas "Free Ruler", id: 1483172210
 mas "GeoGebra Calculator Suite", id: 1504416652
 mas "GoodNotes", id: 1444383602
 mas "Grammar Check", id: 1632607331
@@ -162,6 +180,7 @@ mas "Infuse", id: 1136220934
 mas "Internet Access Policy Viewer", id: 1482630322
 mas "iStat Menus", id: 1319778037
 mas "iyingyue", id: 1050489667
+mas "JSONite", id: 6444227814
 mas "Just Press Record", id: 1033342465
 mas "Keka", id: 470158793
 mas "Keymou", id: 449863619
@@ -170,6 +189,7 @@ mas "Kuar", id: 1553562554
 mas "LanguageTool", id: 1534275760
 mas "LightNote", id: 1546030973
 mas "Liquid", id: 569048352
+mas "Liya", id: 455484422
 mas "Magnet Links", id: 1598258908
 mas "MarginNote 3", id: 1423522373
 mas "Marklist", id: 1218171533
@@ -179,7 +199,7 @@ mas "Mockview", id: 1592728145
 mas "Moom", id: 419330170
 mas "Moped", id: 1477419086
 mas "MWeb Pro", id: 1403919533
-mas "Notability", id: 360593530
+mas "My Applications", id: 1630766571
 mas "Numbers 表格", id: 409203825
 mas "Octotree", id: 1457450145
 mas "OneTab", id: 1540160809
@@ -187,6 +207,7 @@ mas "OwlOCR", id: 1499181666
 mas "Pages 文稿", id: 409201541
 mas "PD", id: 510365488
 mas "PDF Viewer", id: 1120099014
+mas "PiPad", id: 1482575592
 mas "PiPifier", id: 1160374471
 mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
@@ -194,10 +215,14 @@ mas "PopClip", id: 445189367
 mas "Qmenu", id: 1567442612
 mas "QQ", id: 451108668
 mas "QSpace", id: 1469774098
+mas "Randa", id: 1589044499
+mas "Red Lines Tools", id: 1469400117
 mas "Redacted", id: 984968384
 mas "Refined GitHub", id: 1519867270
 mas "Regex for Safari", id: 1597580456
 mas "RegEx Lab", id: 1252988123
+mas "Ruler", id: 1563264206
+mas "Save to Pocket", id: 1477385213
 mas "ScreenToLayers", id: 1077317077
 mas "Sequel Ace", id: 1518036000
 mas "Shazam", id: 897118787
@@ -231,3 +256,4 @@ mas "欧路词典", id: 402380914
 mas "生词本", id: 1120027237
 mas "白描", id: 1249901692
 mas "自动切换输入法 专业版", id: 1551531632
+mas "记事本+", id: 6444789815
