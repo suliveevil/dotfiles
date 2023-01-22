@@ -32,7 +32,7 @@ exif==1.4.0
 feedparser==6.0.10
 ffmpeg-python==0.2.0
 filelock==3.8.0
-future==0.18.2
+future==0.18.3
 giturlparse==0.10.0
 google-translate @ file:///private/var/folders/zs/ppvpcc991fx4bfvz1gy420wc0000gn/T/install-google-translatedHOssH/dist/google_translate-1.0.0-py3-none-any.whl
 graphviz==0.20.1
