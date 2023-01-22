@@ -149,12 +149,14 @@ Neovim
 netlify
 netrw
 Nextcloud
+nltk
 nvim
 opendiff
 openexr
 openjpeg
 operatorname
 orgmode
+orgparse
 orjson
 osascript
 pandoc
@@ -182,6 +184,7 @@ shellcheck
 shellutils
 Shirfine
 Shottr
+sklearn
 Snipaste
 Soulver
 sourcekit
@@ -192,6 +195,7 @@ sqlfluff
 srt
 statusline
 Stig
+stopwords
 Surfingkeys
 SymSpell
 syntastic

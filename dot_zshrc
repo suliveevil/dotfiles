@@ -1,3 +1,5 @@
+export PATH=$PATH:/Applications/Emacs.app/Contents/MacOS
+export PATH=$PATH:/Applications/Emacs.app/Contents/MacOS/bin
 # export PATH=$PATH:~/.cargo/bin
 # export GOKU_EDN_CONFIG_FILE="~/.config/goku/karabiner.edn"
 ################################### chezmoi ##################################

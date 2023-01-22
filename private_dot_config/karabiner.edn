@@ -14,7 +14,13 @@
 {:simlayers {:caps-mode {:key :caps_lock}
              :mouse-mode {:key :a}}
  :simlayer-threshold 250
- :main [{:des "Capslock to Hyper(hold) | Esc(click) 2022-12-04 17:10:18 +0800"
+ :main [
+        {:des "Command to Ctrl+Space (click) for toggle Input Method"
+         :rules [
+                 [:##left_command {:key :left_command} nil {:alone :!Tspacebar}]
+                 ]
+         }
+        {:des "Capslock to Hyper(hold) | Esc(click) 2022-12-04 17:10:18 +0800"
          :rules [[:##caps_lock {:key :right_command :modi [:right_control :right_option :right_shift]} nil {:alone :escape}]
         ;; simultaneously =⌫ to delete backward
                  [[:equal_sign :delete_or_backspace] :delete_forward]]}
@@ -31,8 +37,8 @@
                  ;; 8
                  ;; 9
                  ;; 0
-                 [:!QWERhyphen              :home]       ;; Hyper+- ➡️ Home
-                 [:!QWERequal_sign          :end]        ;; Hyper+= ➡️ End
+                 [:!QWERhyphen              :!Thyphen]       ;; Hyper+- ➡️ Home
+                 [:!QWERequal_sign          :!Tequal_sign]        ;; Hyper+= ➡️ End
                  [:!QWERdelete_or_backspace :!Tdelete_or_backspace]
                  ;;
                  [:!QWERtab                 :!Ttab]
